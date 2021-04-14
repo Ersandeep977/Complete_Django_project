@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>result page</title>
+    <style>
+        h1,h2{ color: red;text-align: center;}
+        body{background: blanchedalmond}
+        ul{font-size: 80px; color: blue;text-align: center}
+    </style>
+</head>
+<body>
+<h1>Hello{{ name }} and {{gfname }}Thank You For Providing Information</h1>
+<h2>PLese Cross Check you data Till Now {{ date }}</h2><hr>
+<ul>
+    <li>Name:- {{ name|upper }}</li>
+    <li>Age:- {{ age }}</li>
+    <li>Girls Name:- {{ gfname|upper }}</li>
+</ul>
+
+</body>
+</html>

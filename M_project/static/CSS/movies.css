@@ -1,0 +1,22 @@
+body{
+    color:#000;
+}
+h1{
+    color: red;
+    taxt-align:center;
+}
+table,tr,thead,th{
+    border: 20px solid white;
+    font-size: 20px;
+    color: white;
+    border: beige;
+    background: blueviolet;
+    margin: auto;
+}
+thead,th{
+    border: 20px solid red;
+    font-size: 30px;
+    color: blue;
+    margin: auto;
+    background: yellow;
+}

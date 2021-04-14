@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Views</title>
+    <link rel="stylesheet" href="{% static 'CSS/demo.css' %}">
+</head>
+<body>
+<h1> Employes Information are..</h1>
+{% if emp_list %}
+<table>
+    <thead>
+    <th>ENo</th>
+     <th>EName</th>
+     <th>ESal</th>
+     <th>EAddr</th>
+    </thead>
+    {% for emp in emp_list %}
+    <tr>
+        <td>{{ emp.ENo }}</td>
+        <td>{{ emp.EName }}</td>
+        <td>{{ emp.ESal }}</td>
+        <td>{{ emp.EAddr }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>No Employess Fount</p>
+{% endif %}
+</body>
+</html>

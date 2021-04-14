@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% extends 'MyApp/Base.html' %}
+{% block body_block %}
+    <h1>Student Dash Bord Information</h1>
+    <h1>Total No of Count find:-<span style="font-max-size: larger; color: black;background: aliceblue">'{{ count }}'</span> &nbsp;
+        Current Date And Time:<span style="background: aliceblue;color: black">'{{ date }}'</span></h1>
+    <table border="10px" bgcolor="#ffebcd" align="center">
+    <thead border="5px" style="background: darkseagreen">
+    <th>Student EId</th>
+    <th>Student EName </th>
+    <th>Student Email</th>
+    <th>Student Adreess</th>
+    <th>Student rollno</th>
+    <th>Student mark</th>
+    </thead>
+    {% for std in std %}
+        <tr style="color: black">
+        <td>{{ std.id }}</td>
+        <td>{{ std.name }}</td>
+        <td>{{ std.email }}</td>
+        <td>{{ std.address }}</td>
+        <td>{{ std.rollno }}</td>
+        <td>{{ std.mark }}</td>
+        </tr>
+    {% endfor %}
+    </table><br><br><br>
+
+{% endblock %}

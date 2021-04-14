@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="{% static 'CSS/demo.css' %}" >
+</head>
+<body>
+<h1> {{ name }} ki party ho rahi he</h1>
+<h2> Current Date And Time :{{ date }}</h2>">
+<form>
+    <a  href="/p" role="button">PUNE INFO</a>&nbsp;&nbsp;&nbsp;
+    <a  href="/h" role="button">HYD  INFO</a>&nbsp;&nbsp;&nbsp;
+    <a  href="/c" role="button">CHANN INFO</a><hr>
+    </form>
+<img src="{% static 'Image/Green.jpg' %}">
+<hr>
+
+</body>
+</html>

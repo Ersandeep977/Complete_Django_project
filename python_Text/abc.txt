@@ -1,0 +1,5947 @@
+DEMO 1
+What is Web?
+Collection of E-Resources is called web. Father of web is Sir Tim Berners Lee.
+
+What is W3C?
+World Wide Web Consortium. It is an organisation to maintain web standards. It was founded in 1994 by Tim Berners Lee.
+
+Network
+A group of computers used to exchange resources with each other. First network was ARPANET which stands for Advanced Research Projects Agency Network.
+
+What is internet?
+INTERnational NETwork. Father of internet is Mr. Vint Cerf.
+
+Protocol
+Collection of rules between sender and receiver.
+
+TCP
+Transmission Control Protocol. It is a connectivity between computers in a Network.(LAN/INTRANET)
+
+Define IP
+Internet Protocol. It is connectivity between networks in a WAN.
+
+DEMO 2
+E-mail
+It is a method of exchaging messages between E-devices. It is classified into the following 2 types:
+1. WebMail: Web-based email accounts. It is online mail system.
+	Example: HotMail,Gmail,Yahoo etc.
+	
+2. PoP Mail:PostOfficeProtocol. It is popularly known as Offline mail system.
+	Example: MSOutlook Express, Mozilla Thunderbird etc.
+
+SMTP
+Simple Mail Transfer Protocol or Cross Mail Domain Communication
+
+MIME
+Multipurpose Internet Mail Extensions or We can send any kind of attachements.
+
+DEMO 3
+What is URL
+Uniform resource locator
+
+Example:
+https://www.google.com
+
+http = Common language between client and server
+:// = Delimeter(s), Special characters
+www = Default domain or SubDomain
+. = Period or Embed character
+google = PLD(Primary level domain)
+com = TLD(Top level domain)
+s = SSL(Secure Socket Layer)
+
+Realtime project architecture
+1. Single tier architecture(StandAloneEnvironment)
+2. Two tier architecture(ClientServerEnvironment)
+3. Three tier architecture(WebEnvironment)
+4. N tier architecture(DistributedEnvironment)
+5. MVC architecture(ModelViewController)
+
+Development layers
+1. Presentation Layer(UI) = (HTML, HTML5, CSS, CSS3, SASS, LESS, CSS4, JavaScript, jQuery, AngularJS, Angular)(FrontEnd)
+2. Business Logic Layer(coding) = (Python, Django, Java, .net, PHP, NodeJS)(Middle)
+3. Data Access Layer(Storage) = (Oracle, SQLServer, MySQL, DB2, SQLite)(BackEnd)
+
+DEMO 4
+Parts in HTML Document
+HTML document has the following 3 parts:
+1. HTML version information
+2. Head Section
+3. Body Section
+
+
+HTML version information
+The <!doctype> declaration is not an HTML tag. It is an instruction to the web browser about what version of HTML the page is written in.
+Note-The <!doctype> declaration is not case sensitive.
+
+
+Head Section
+It contains general information, meta information and document type information. The following list of tags are frequently used-
+1. <title>
+2. <link>
+3. <style>
+4. <script>
+
+DEMO 5
+<title> Tag
+The <title> tag is required in all HTML documents and it defines the title of the document. It is a paired tag.
+
+Syntax:
+<title>..........</title>
+
+Example:
+<html>
+<head>
+<title>
+First Page
+</title>
+</head>
+
+
+<link> Tag
+It defines a link between a document and an external resource. It is a non-paired tag.
+
+Syntax:
+<link> or <link/>
+
+Attributes
+href
+rel
+type
+
+
+How to add a favicon to your site?
+A favicon is a graphic image associated with a particular web page and/or website. The format of the image must be one of PNG, GIF, ICO. The format for the
+image you have chosen must be 16X16 pixels or 32X32 pixels.
+
+Example:
+<!doctype html>
+<html>
+<head>
+<title>
+Gaurav
+</title>
+<link href = "imagepath.extension" rel = "icon"/>
+</head>
+<body>
+Welcome to favicon
+</body>
+</html>
+
+
+<style> Tag
+It is used to define style information for an HTML document. It is a paired tag.
+
+Syntax:
+<style>..........</style>
+
+
+HTML<script>Element
+It is used to define a client-side script, such as JS. It is a paired tag.
+
+Syntax:
+<script>..........</script>
+
+DEMO 6
+<body> Tag
+This section contains the contents of an HTML document such as text,  hyperlinks, images, special characters, lists, tables, forms etc. It is a paired tag.
+
+Syntax:
+<body>..........</body>
+
+Attributes
+Attribute			Parameters
+bgcolor				Color Name/ColorCode
+background			image path
+text 				Color Name/ColorCode
+
+
+HTML Colors
+AS per W3C standards, the following 16 colours are web-safe colours.
+White	Gray	Silver	Black
+Yellow	Lime	Blue	Aqua
+Red		Green	Blue	Purple
+Maroon	Olive	Navy	Teal
+
+Colour values
+HTML colours are defined using a hexadecimal notation for the combination of Red,Green and Blue colour values(RGB). The lowest values that can be given to one
+of the light source is 0(in HEX: 00). The highest value is 255(in HEX:FF). HEX values are specified as 3 pairs of two-digit numbers starting with a # sign.
+
+16 Million different colours
+The combination of RGB values from 0 to 255 gives more than 16 million different colours(256X256X256).
+
+#FF0000 - Red
+#00FF00 - Green
+#0000FF - Blue
+#000000 - Black
+#FFFFFF - White
+#FFFF00 - Yellow
+
+10/06/2019
+In HTML, we have six heading styles. All the headings are paired tags.
+
+Syntax:
+<h1>------------------</h1>
+<h2>------------------</h2>
+<h3>------------------</h3>
+<h4>------------------</h4>
+
+Example HTML Headings
+<!doctype html>
+<body>
+<h1 allign = "left">Hello</h1>
+<h2 allign = "center">Hello</h2>
+<h3 allign = "right">Hello</h3>
+</body>
+
+
+Paragraph tag:
+It is used to divide the text into different paragraphs. It is a paired tag.
+
+Syntax:
+<p>-----------</p>
+
+Attributes					Parameters
+align						left, right, center, justify
+
+Example Paragraph Tag
+<!doctype html>
+<body>
+<p allign = "justify">
+Django is a Python based free and open source web framework, which follows the model template view archtectural pattern.
+</p>
+
+<p allign = "left">
+Some Text
+</p>
+
+<p allign = "right">
+Some Text
+</p>
+</body>
+
+
+HR Tag (Horizontal Rule):
+It is used to draw a line across the web page. It is non paired tag.
+
+Syntax: <hr> or <hr/>
+
+Attributes					Parameters
+color						ColorName/HexaColorCode
+size						pix
+width						% or pix
+align						left, right, center
+noshade						noshade
+
+Example HR Tag
+<!doctype html>
+<body>
+<hr color = 'red' width = "100px" align = "left" size = "2px">
+Django Framework
+<hr color = 'blue' width = "150px" size = "4px">
+Robot Framework
+<hr color = 'violet' width = "200px" align = "right" size = "6px">
+WildMill Framework
+<hr width = "250px" align = "left" size = "8px" noshade = "noshade">
+</body>
+If both color and noshade are present, then a higher priority is given to color.
+
+Note - By default, browser accept 1 space only. To enter more space, we need to add &nbsp;. The number of &nbsp; entered creates the number of space.
+nbsp = non breaking space. It is a special character.
+
+Example Non Breaking Space
+<!doctype html>
+<body>
+Welcome&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to Python<br>Django Web Framework
+</body>
+
+
+HTML Presentational Tags
+HTML supports the following list of presentational tags.
+1. <blockquote>
+2. <code>
+3. <kbd>
+4. <pre>
+5. <sub>
+6. <sup>
+
+
+<blockquote>
+It specifies a section that is quoted from another source. It is a paired tag.
+
+Syntax:
+<blockquote>------------</blockquote>
+
+
+HTML<code>Tag
+It is a phrase tag. It defines a piece of computer code. It is a paired tag.
+
+Syntax:
+<code>----------------</code>
+
+
+HTML <kbd> Tag
+It defines keyboard input.It is a paired tag.
+
+Syntax:
+<kbd>-----------</kbd>
+
+
+Pre Tag:
+Pre stands for pre-formatted text. It is a paired tag.
+
+Syntax:
+<pre>-----------</pre>
+
+
+<sup>
+It is used to display superscript text. It is a paired tag.
+
+Syntax:
+<sup>------------</sup>
+
+
+<sub>
+It is used to display subscript text. It is a paired tag.
+
+Syntax:
+<sub>===========</sub>
+
+Example HTML Presentational Tag
+<!doctype HTML>
+<body>
+<blockquote>
+The Robot framework is a generic test automation framework for acceptance testing.
+</blockquote>
+
+<code>
+Hello Welcome to code</code>
+
+Save the doc:<kbd>Ctrl + s</kbd>
+
+<pre>
+Hello
+to Django
+framework.
+it is good.
+</pre>
+
+Hello i am power (2) <sup> 3 </sup>
+Hello i am base (1010) <sub> 2 </sub>
+
+
+HTML forms/Web forms
+It is an HTML form on a web page that lets visitors enter their information.
+
+The <form> Element
+It defines a form that is used to collect user input. It is a paired tag.
+
+Syntax:
+<form>..............</form>
+
+Form attributes:
+1. method
+2. action
+3. target
+4. enctype
+
+
+11/06/2019
+Input Fields Attributes and Parameters
+Attributes				Parameters
+name					any name
+value					any value
+size					pixels
+maxlength				number
+rows					number
+cols					number
+readonly				true,false
+disabled				disabled
+checked					checked
+multiple				true,false
+
+Example Basic Login Form
+<!doctype html>
+<body>
+<form>
+<label>User Name:</label><br>
+<input type = 'text'><br>
+<label>Password:</label><br>
+<input type = 'password'><br>
+<input type = 'submit'>
+<input type = 'reset'>
+</form>
+</body>
+
+cols,rows==> Textarea==> Multiline Text Box
+Textarea by default supports 2 rows and 20 columns. It can also vary from browser to browser.
+
+
+HTML<select>Tag
+It is used to create a drop-down list. The <option> tags inside the <select> element define the available options in the list. It is a paired tag.
+
+Syntax:
+<select>............</select>
+
+Attributes
+Attribute		Value		Description
+disabled		disabled	Specifies that a drop-down list should be disabled
+multiple		multiple	Specifies that multiple options can be selected at once
+name 			name		Defines a name for the drop-down list size
+number			value		Defines the number of visible options in a drop-down list
+
+
+HTML<optgroup>Tag
+It is used for group related options in a drop-down list. It is a paired tag.
+
+Syntax:
+<optgroup>............</optgroup>
+
+Attributes
+Attribute			Value			Description
+disabled			disabled		Specifies that an option-group should be disabled
+label 				text			Specifies a label for an option-group
+
+
+HTML<option>Tag
+It defines an option in a select list. It is a paired tag.
+
+Syntax:
+<option>............</option>
+
+Attributes
+Attribute			Value			Description
+disabled			disabled		Specifies that an option should be disabled
+label 				text 			Specifies a shorter label for an option
+selected			selected		Specifies that an option should be pre-selected when the page loads.
+value				text			Specifies the value to be sent to a server
+
+Example
+<!doctype html>
+<body>
+<form>
+<select>
+<optgroup label = "BIGDATA TERMINOLOGIES" disabled = "disabled">
+<option value = "dt">Data</option>
+<option value = "bd">Big Data</option>
+<option value = "hd">Hadoop</option>
+<option value = "sp">Spark</option>
+<option value = hh">H2O</option>
+<option value = "ml">Machine Learning</option>
+</optgroup>
+<optgroup label = "Programmimg Technologies">
+<option value = "py">Python</option>
+<option value = "jj">Java</option>
+<option value = "rb">"Ruby</option>
+<option value = "ne">DotNet</option>
+<option value = "pl">Perl</option>
+<option value = "sh" selected = "selected">Shell</option>
+</optgroup>
+</select>
+</form>
+</body>
+
+
+ListBox:
+HTML<select>multiple Attribute
+The multiple attribute is a boolean attribute. It specifies that multiple options can be selected at once.
+
+Syntax:
+<select multiple>
+
+
+HTML<select>size Attribute
+The size attribute specifies the number of visible options in a drop-down list.
+
+Syntax:
+<select size = "number">
+
+Attributes
+Value			Description
+number			The number of visible options in the drop-down list. Default value is 1. If multiple attributes are present, the default value is 4.
+
+12/06/2019
+In a listbox where multiple items can be selected, we can select one or more items by holding ctrl and clicking left mouse button.
+
+Example:ListBox
+<!doctype html>
+<body>
+<form>
+<select multiple = "multiple" size = "10">
+<optgroup label = "Big Data Terminologies">
+<option value = "dt">Data</option>
+<option value = "bd">Big Data</option>
+<option value = "hd">Hadoop</option>
+<option value = "sp">Spark</option>
+<option value = hh">H2O</option>
+<option value = "ml">Machine Learning</option>
+</optgroup>
+<optgroup label = "Programmimg Technologies">
+<option value = "py">Python</option>
+<option value = "jj">Java</option>
+<option value = "rb">"Ruby</option>
+<option value = "ne">DotNet</option>
+<option value = "pl">Perl</option>
+<option value = "sh" selected = "selected">Shell</option>
+</optgroup>
+</select>
+</form>
+</body>
+
+
+Radio Button Controls
+Radio buttons are used when out of many options, just one option is required to be selected. They are also created using HTML<input> tag but type attribute is
+set to radio.
+
+Example:
+<!doctype html>
+<body>
+<form>
+<label>Select your valid gender</label><br/>
+<input type = "radio" name = 'rd' checked = "checked">MALE
+<input type = "radio" name = 'rd'>FEMALE
+<input type = "radio" name = 'rd'>OTHERS
+</form>
+</body>
+
+name attribute must be same otherwise multiple values can be selected thus defeating the purpose of selecting one option.
+
+
+Checkbox Control
+Checkboxes are used when more than one option is required to be selected. They are also created using HTML<input> tag but type attribute is set to checkbox.
+
+Example:
+<!doctype html>
+<body>
+<form>
+<label>Select your favourite technology(s)"</label><br/>
+<input type = "checkbox" name = 'ck' checked = "checked">HTML
+<input type = "checkbox" name = 'ck1'>CSS
+<input type = "checkbox" name = 'ck2'>Django
+<input type = "checkbox" name = 'ck3'>REST-API
+</form>
+</body>
+
+
+<fieldset>
+It defines a group of form elements as being logically related. The browser draws a box around the set of fields to indicate that they are related. It is a 
+paired tag.
+
+Syntax:
+<fieldset>..........</fieldset>
+
+Example:
+<!doctype html>
+<body>
+<form>
+<fieldset>
+<label>Select your favourite technology(s)"</label><br/>
+<input type = "checkbox" name = 'ck' checked = "checked">HTML
+<input type = "checkbox" name = 'ck1'>CSS
+<input type = "checkbox" name = 'ck2'>Django
+<input type = "checkbox" name = 'ck3'>REST-API
+</fieldset>
+</form>
+</body>
+
+
+<legend>
+It is used with <fieldset> to give a title of each set of fields. It is a paired tag.
+
+Syntax:
+<legend>..........</legend>
+
+Attributes				Parameters
+align					right, center, left
+
+Example:
+<!doctype html>
+<body>
+<form>
+<fieldset>
+<legend>Select your favourite technology(s)"</legend>
+<input type = "checkbox" name = 'ck' checked = "checked">HTML
+<input type = "checkbox" name = 'ck1'>CSS
+<input type = "checkbox" name = 'ck2'>Django
+<input type = "checkbox" name = 'ck3'>REST-API
+</fieldset>
+</form>
+</body>
+
+
+Introduction to HTTP
+It is designed to enable communication between clients and servers. HTTP works as a request-response protocol between a client and a server. A web browser may 
+be the client and an application on a computer that hosts a web site may be server.
+
+
+HTTP Request methods:
+Two commonly used methods for a request-response between a client and server are:
+1. GET
+2. POST
+
+
+Action attribute:
+This attributeis used to specify the URL of the server page to which we want to send our form data.
+
+Syntax:
+<form name = "myform" action = "user.aspx">
+
+
+GET
+In this method, we don't have security for our data and only limited data can be sent to the server page. This is the default method of the form.
+
+Syntax:
+<form action = "nit.html" method = "get">
+
+Example:
+<!doctype html>
+<body>
+<form action = "something.html" name = 'myform' method = 'get'>
+<label>User Name:</label><br/>
+<input type = 'text' name = "user"><br/>
+<label>Password:</label><br/>
+<input type = "password" name = "pass"><br/>
+<input type = "submit" value = "Sign In">
+<input type = "reset" value = "Cancel">
+</form>
+</body>
+Upon hitting Sign In, the user name and password is visible in the URL tab.
+
+POST
+In this method, we have security for our data. We can send bulk of data to the server. It can carry encrypted data from client to server page.
+
+Syntax:
+<form method = "post">
+
+Example:
+<!doctype html>
+<body>
+<form action = "something.html" name = 'myform' method = 'post'>
+<label>User Name:</label><br/>
+<input type = 'text' name = "user"><br/>
+<label>Password:</label><br/>
+<input type = "password" name = "pass"><br/>
+<input type = "submit" value = "Sign In">
+<input type = "reset" value = "Cancel">
+</form>
+</body>
+Upon hitting Sign In, the user name and password is hidden thus making it secure.
+
+
+GET vs POST
+GET												POST
+Data is visible on URL address					Not visible on URL address
+Unsecured										Highly secured
+Excellent performance							Good performance
+Transfers limited amount of data(Max 2KB)		Transfers huge amount of data
+Unable to upload file							We can upload files
+Can be cached									Cannot be cached
+
+14/06/2019
+HTML<span> Tag
+It is used to apply inline styles on some specfic character, words or some other HTML elements. It is a paired tag.
+
+Syntax:
+<span>..........</span>
+
+Example:
+<!doctype html>
+<body>
+<span style = 'color:red;font-family:tahoma;font-size:100px'>P</span>YTHON Django<br>
+<span style = 'color:green;text-decoration:underline'>PYTHON Django</span><br>
+<span style = 'color:blue;font-weight:bolder'>PYTHON Django</span>
+</body>
+
+
+HTML<div>Tag:
+By using this tag, we can design the webpage as a multiple divisions. It is a paired tag.
+
+Syntax:
+<div>.......</div>
+
+Attributes:
+align			left,center,right
+
+Example: div tag with align attribute
+<!doctype html>
+<body>
+<div align = "left">Hello</div>
+<div align = "center">Hye</div>
+<div align = "right">Hola</div>
+</body>
+
+Example: div tag with style
+<!doctype html>
+<body>
+<div style = 'background-color:#FF9900;width:100%;height:100px'></div>
+<div style = 'background-color:#FFFFFF;width:100%;height:100px'align = "center"></div>
+<div style = 'background-color:#00FF00;width;100%;height:100px'></div>
+</body>
+
+
+Working with HTML5
+It is an advanced Hyper Text Markup Language for better web applications. It has different advanced features.
+1. HTML5 Semantics(for Doc Str)
+2. HTML5 Inline Elements(Block level elements)
+3. HTML5 Advanced Forms(Web 2.0)
+4. HTML5 Form Attributes(Web 2.0)
+5. HTML5 Input Attributes(web 2.0)
+6. HTML5 New Form Elements(For more functionality)
+
+
+HTML5 Advanced Forms
+HTML5 defines 13 new values for the type attribute of the HTML<input>element.
+1. color(color chooser)
+2. date(popup calendar)
+3. datetime(datetime chooser)
+4. datetime-local(datetime chooser)
+5. email(email entry)
+6. month(month chooser)
+7. number(spinner)
+8. range(slider)
+9. search(Search Query Input)
+10. tel(Telephone input)
+11. time(TimeSelector)
+12. url(URL entry)
+13. week(Week chooser)
+
+Example: HTML5 Form Tags
+<!doctype html>
+<body>
+<input type = 'color' name = 'clr'<br>
+<input type = 'date' name = 'dt'<br>
+<input type = 'datetime' name = 'dtm'<br>
+<input type = 'datetime-local' name = 'dtl'<br>
+<input type = 'email' name = 'eid'<br>
+<input type = 'month' name = 'mn'<br>
+<input type = 'number' name = 'nm'<br>
+<input type = 'range' name = 'rg'<br>
+<input type = 'search' name = 'sr'<br>
+<input type = 'tel' name = 'tl'<br>
+<input type = 'time' name = 'ttm'<br>
+<input type = 'url' name = 'ur'<br>
+<input type = 'week' name = 'wk'<br>
+</body>
+
+
+HTML5 Multimedia Tags
+HTML5 supports the following list of media tags.
+1. HTML5<audio>Tag
+It is used to display audio content to a web page. It is a paired tag.
+
+Syntax:
+<audio>......</audio>
+
+Attributes
+Attribute			Value			Description
+autoplay			autoplay		Specifies that the audio will start playing
+controls			controls		Specifies that audio controls should be displayed
+loop				loop			Specifies that the audio will start over again
+src					path			Specifies the URL of the audio file
+muted 				muted			Specifies the audio to be muted
+
+Example:
+<!doctype html>
+<body>
+<audio src = "songpath.mp3" controls = "controls" autoplay = "autoplay" loop = "2" muted = "muted">
+<p>Can't play audio</p>
+</audio>
+</body>
+
+
+2.HTML5<video>Tag
+It is used to specify video content on a web page. It is a paired tag.
+
+Syntax:
+<video>.......</video>
+
+Attributes
+Attribute			Value				Description
+autoplay			autoplay			Specifies that the video will start playing
+controls			controls			Specifies that the video controls should be displayed
+src					URL					Specifies the URL of the video file
+width				pixels				Sets the width of the video player
+height				pixels				Sets the height of the video player
+loop				loop				Specifies that the video will start over again
+muted 				muted 				Specifies that the audio output of the video should be muted
+poster 				URL					Specifies an image to be shown while the video is downloading, or untill the user hits the play button
+preload				auto metadata none	Specifies if and how the author thinks the video should be loaded when the page loads
+
+Example:
+<!doctype html>
+<body>
+<video src = "videopath.extension" controls = "controls" loop = "3" muted = "muted" width = "1000px" height = "800px" poster = "imagepath.extension"
+preload = "auto">
+<p>Can't play video</p>
+</video>
+</body>
+ 
+ 
+ CSS 1.0/2.0
+ Cascading style sheets. It is a simple design language intended to simplify the process of making a web pages presentable.
+ 
+ Features of CSS:
+ 1. Flexibilty
+ 2. Codes Rendering
+ 3. Accessibility
+ 4. Easy management
+ 5. Global Change
+ 6. CSS saves a lot of time
+ 7. Easy maintenance
+ 8. Inline Styles
+ 9. Internal Style Sheets
+ 10. External Style Sheets
+ 11. Page loads faster
+ 12. Superior styles to HTML
+ 13. Multiple device compatibility
+ 14. Global web standards
+ 
+ 15/06/2019
+ CSS Versions
+ CSS 1.0 ==> 1996
+ CSS 2.0 ==> 1998 
+ CSS 3.0 ==> 2008
+ CSS 4.0 ==> 2016
+ 
+ 
+ Bootstrap
+ Mobile FrontEnd framework for responsive web design. One website can be able to fit on any device
+ LESS ==> Linear CSS
+ SAAA ==> Syntactically Awesome Style Sheets
+ 
+ CSS Syntax:
+ <style type = 'text/css'>
+ Styles
+ Styles
+ </style>
+ 
+ Example:
+ <!doctype html>
+ <head>
+ <style type = 'text/css'>
+ p{ => Selector
+ font-size:40px;
+ }
+ </style>
+ </head>
+ <body>
+ <p>Welcome to CSS</p>
+ </body>
+ 
+ Comments in CSS
+ Comments are used to explain our code, and may help us when we edit the source code at a later date. Comments are ignored by all browsers. A CSS comment
+ begins with /* and ends with */.
+ /*This is a comment*/
+ 
+ Types of Style Sheets
+ There are 3 ways to apply CSS to HTML
+ 1. Inline Style
+ 2. Internal/Embedded Style Sheets
+ 3. External Style Sheets
+ 
+ Inline Sheets
+ We specify styles inside the tag in the body part. These styles will be applied only for that particular line.
+ <p style = "color":red">text</p> This will make that specfic paragraph red
+ <span style = "color:blue">Hola</span> This will make that text style in blue color.
+ 
+ Example:
+ <!doctype html>
+ <head>
+ <style type = 'text/css'>
+ b{
+ font-size:30px;color:red;background-color:green;
+ }
+ p{
+ font-size:40px;color:blue;
+ }
+ </style>
+ </head>
+ <body>
+ <b>Welcome to CSS</b><br/>
+ <b>Welcome to CSS</b><br/>
+ <p>Welcome to CSS</p>
+ </body>
+ 
+ 
+ Internal/Embedded Style Sheets
+ If we specify the styles in our html file itself, then they are called as internal styles. These styles cannot be used in other files i.e. if we want the same
+ style in other files, we would write them again in that other file. Embedded or internal styles are  used for the whole page. Inside the head tag, the style
+ tag surround all of the styles for the page.
+ 
+ Syntax:
+ <html>
+ <head>
+<style>
+i{
+color:red;font-size:40px;
+}
+em{
+color:blue;font-size:40px;
+}
+</style>
+</head>
+<body>
+<i>Internal Style</i>
+<em>Internal Style</em>
+</body>
+</html>
+
+
+External Style Sheets
+If we declare the styles outside our HTML file as another file, then they are called external styles. These styles are reusable i.e. they can be used for more 
+one file. We save the external file consisting of styles with .css file extension. The changes made in the external files will affect all the html files which 
+are using those styles.
+
+Syntax:
+<head>
+<link rel = "stylesheet" href = "#" type = "text/css">
+</head>
+
+Steps to create external style sheets
+Step 1 Write the CSS file 
+div
+{
+color:blue;font-size:100px;
+font-family:candara;
+text-decoration:overline;
+font-weight:bold;
+}
+
+save with .css extension
+
+Step 2 Write an HTML file
+<!doctype html>
+<head>
+<link href = "one.css" rel = "stylesheet"/>
+</head>
+<body>
+<div>Welcome to external styles</div>
+</body>
+
+save with .html extension
+
+17/06/2019
+CSS Selector
+Selector means style reusability.
+
+Types of selectors:
+1. Type/Tag
+2. ID Selectors
+3. Class Selectors
+
+Type/Tag selectors
+A type selector matches the name of a document language element type. A type selector matches every instance of the element type in the document tree.
+
+Syntax:
+div
+{
+Styles
+Styles
+}
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+div
+{
+color:red;font-size:40px;
+}
+</style>
+</head>
+<body>
+<div>Welcome to selectors</div>
+</body>
+
+
+ID Selector
+It is used to specify a style for a single, unique element. The ID selector uses the ID attribute of the HTML element, and is defined with a #.
+
+Syntax:
+#div
+{
+Styles
+Styles
+}
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+#p
+{
+color:red;
+}
+#b
+{
+color:green;font-size:45px;
+}
+</style>
+</head>
+<body>
+<div id = "p">Welcome to Selectors</div>
+<span id = "b">Welcome to Selectors</span>
+</body>
+Note: WE can use any tags for the id but never should use the head tags such as <title>
+      ID should not be duplicated i.e. no 2 different ID should have same name
+	  We can write any set of character before ID selector but make sure to use that name only in the body.
+	  anyText#a
+	  {
+	  
+	  }
+	  .
+	  .
+	  .
+	  <anyText id = "a">..........</anyText>
+	  
+	  
+Class Selectors
+
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+.p
+{
+color:red;
+}
+anyText.b
+{
+color:green;font-size:45px;
+}
+</style>
+</head>
+<body>
+<div class = "p">Welcome to Selectors</div>
+<anyText class = "b">Welcome to Selectors</anyText>
+<div class = "p">Welcome to Selectors</div>
+</body>
+Note: We van duplicate class names but ID name cannot be duplicated as it will result in errors during JS
+
+
+CSS Background Properties
+CSS supports following list of background properties
+1. background-color - It is used to set the background colour of an element
+2. background-image - It is used to set the background image of an element
+3. background-repeat - It is used to control the repetition of an image in the background
+4. background-attachment - It is used to control the scrolling of an image in the background
+5. background-position - It is used to control the scrolling of an image in the background
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+body
+{
+background-color:#009900;
+background-image:url("imagePath.extension");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+}
+</style>
+</head>
+<body>
+Welcome to Backgrounds
+</body>
+
+
+CSS Units
+CSS supports a number of measurements including absolute units such as inches, centimeters, points and so on.
+
+
+em
+An em is a unit of measurement in the field of typography.
+
+Syntax:
+em;
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+p
+{
+font-size:1em;
+}
+</style>
+</head>
+<body>
+<p>Welcome to CSS Units</p>
+</body>
+
+
+ex
+This value defines a measurement relative to a font's x-height.
+
+Syntax:
+ex;
+
+Example:
+<!doctype html>
+<html>
+<style type = "text/css">
+p
+{
+font-size:1ex;
+}
+</style>
+</head>
+<body>
+<p>Welcome to CSS Units</p>
+</body>
+
+
+px
+Defines a measurement in screen pixels.
+
+Syntax:
+px;
+
+Example:
+<!doctype html>
+<html>
+<head>
+<style text = "text/css">
+p
+{
+font-size:1px;
+}
+</style>
+</head>
+<body>
+<p>Welcome to CSS Units</p>
+</body>
+
+
+in(inches)
+Defines a measurement in inches.
+
+Syntax:
+in;
+
+Example:
+<!doctype html>
+<html>
+<head>
+<style text = "text/css">
+p
+{
+font-size:1in;
+}
+</style>
+</head>
+<body>
+<p>Welcome to CSS Units</p>
+</body>
+
+
+cm(centimeters)
+Defines a measurement in centimeters.
+
+Syntax:
+cm;
+
+Example:
+<!doctype html>
+<html>
+<head>
+<style text = "text/css">
+p
+{
+font-size:1cm;
+}
+</style>
+</head>
+<body>
+<p>Welcome to CSS Units</p>
+</body>
+
+
+mm(milimeters)
+Defines a measurement in milimeters.
+
+Syntax:
+mm;
+
+Example:
+<!doctype html>
+<html>
+<head>
+<style text = "text/css">
+p
+{
+font-size:1mm;
+}
+</style>
+</head>
+<body>
+<p>Welcome to CSS Units</p>
+</body>
+
+
+CSS Basic Text Properties
+1. color - is used to set the colour of a text
+2. direction - is used to set the text direction
+3. letter-spacing - is used to add or subtract space between the letters that make up a word
+4. word-spacing - is used to add or subtract space between the letters that make up a word
+5. text-indent - is used to align the text of a paragraph
+6. text-align - is used to align the text of a document
+7. text-decoration - is used to underline, overline and line-through text
+8. text-transform - is used to capitalize text or convert text to uppercase or lowercase letters
+9. white-space - is used to control the flow and formatting of text
+10. vertical-align - is used to set the vertical alignment of an element. It supports following values:-
+						baseline
+						sub
+						super
+						top
+						text-top
+						middle
+						bottom
+						text-bottom
+
+18/06/2019
+Example: First 4 properties
+<!doctype html>
+<head>
+<style type = "text/css">
+p
+{
+color:red;
+direction:rtl;
+letter-spacing:10px;
+word-spacing:30px;
+}
+</style>
+</head>
+<body>
+<p>Welcome to Text Properties</p>
+</body>
+
+Example: Next 4 properties
+<!doctype html>
+<head>
+<style type = "text/css">
+p
+{
+text-indent:100px;
+text-align:justify;
+text-decoration:underline;
+text-transform:uppercase;
+}
+</style>
+</head>
+<body>
+<p>Some text alsdalkdlahdlasfhkahlaskdjlakshdfclaksdjlaksdjjkalfhalkjfsa</p>
+</body>
+
+Example: white-space
+<!doctype html>
+<head>
+<style type = "text/css">
+p
+{
+white-space:nowrap;
+}
+</style>
+</head>
+<body>
+<p>Welcome to Text Properties. In this the line won't break that is nowrap property will force to display the entire thing into one line and no other lines.</p>
+</body>
+
+Example: vertical-align
+<!doctype html>
+<head>
+<style type = "text/css">
+b
+{
+background-color:yellow;
+vertical-align:sub
+}
+</style>
+</head>
+<body>
+Welcome to Text Properties. sub in vertical-align will create a subscript of <b>the following text</b>
+</body>
+
+
+CSS font properties
+1. font-family - is used to change the face of a font
+2. font-style - is used to make a font italic or oblique
+3. font-variant - is used to create a small-caps effect
+4. font-weight - is used to display a font bold or light
+5. font-size - is used to increase or decrease the size of a font
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+p
+{
+font-family:tahoma;
+font-style:oblique;
+font-variant:small-caps;
+font-weight:bolder;
+font-size:30px;
+}
+</style>
+</head>
+<body>
+<p>Welcome to font Properties</p>
+</body>
+
+
+CSS3 Basics
+It is advanced cascading style sheets. It has the following advanced features:-
+1. @font-face(User defined or Customised fonts)
+2. border-radius(Round corners)
+3. box-shadow(Vertical and Horizontal)
+4. text-shadow(Vertical and Horizontal)
+5. transforms(Duplicating Graphics)
+6. transitions(Partially Dynamic)
+7. CSS3 Animations(Fully Dynamic Graphics)
+
+@font-family
+It is latest property to display user defined fonts on the web page. This fonts have the following list of extensions:-
+			1. TrueType Fonts(TTF)
+			2. OpenType Fonts(OTF)
+			3. Web Open Font Formats(WOFF)
+			4. Embedded OpenType Fonts(EOT)
+			Famous custom font website - 1001freefonts.com
+			
+
+Downloading user defined fonts
+Go to 1001freefonts.com. Select required font. Click on required font style. Click on download. Downloaded file must be unzipped.
+
+Example: User defined fonts
+<!doctype html>
+<head>
+<style type = "text/css">
+@font-face
+{
+font-family:anyName;
+src:url("locationOfFont/fontName.extension");
+}
+div
+{
+font-family:anyName;
+}
+</style>
+</head>
+<body>
+<div>Welcome to CSS User defined fonts </div>
+</body>
+
+
+Border-radius
+It is a shorthand property for setting the four border-*-radius properties.
+
+Syntax:
+border-radius:1-4 length|%/px;
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+div
+{
+width:300px;height:20px;
+border:2px solid #FF0000
+border-radius:20px
+}
+</style>
+</head>
+<body>
+<div></div>
+</body>
+
+
+box-shadow
+It attaches one or more drop-shadows to the box.
+
+Syntax:
+box-shadow:h-shadow v-shadow blur spread-color inset;
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+div
+{
+width:250px;height:90px;
+background-color:red;
+box-shadow:15px 15px 25px #FFFF00 inset;
+border:radius:30px;
+}
+</style>
+</head>
+<body>
+<div></div>
+</body>
+
+
+text-shadow
+It applies shadow to text. We specify the horizntal shadow, the vertical shadow, the blur distance and the colour of the shadow.
+
+Syntax:
+text-shadow:h-shadow v-shadow blur color;
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+p
+{
+color:green; font-family:candara;font-size:35px;
+text-shadow:10px 10px 3px #FF9900;
+}
+</style>
+</head>
+<body>
+<p>This is a Sample Text </p>
+</body>
+
+
+transforms
+rotate() Method:
+With the help of this method you can rotate your objects depending on its value. Two types of value can be passed in this method. One is positive(for clockwise
+rotation) and the another one is negative(for counter-clockwise rotation).
+
+Syntax:
+transform:rotate(x,y)
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+div
+{
+width:100px;height:80px;
+border-radius:10px;
+}
+div#div1
+{
+transform:rotate(20deg);
+}
+</style>
+</head>
+<body>
+<div>
+<img src = "pathName/imageName.extension" width = 90px/>
+</div>
+<div id = "div1>
+<img src = "pathName/imageName.extension" width = 90px/>
+</div>
+</body>
+
+19/06/2019
+transition
+It is a shorthand property for the four transition properties:transition-property, transition-duration, transition-timing-function and transition-delay.
+
+Syntax:
+transition:property duration timing-function delay;
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+div
+{
+width:100px;height:100px;
+background:blue;border-radius:10px;
+transition:width 2s;
+}
+div:hover
+{
+width:300px;
+}
+</style>
+</head>
+<body>
+<div>
+</div>
+</body>
+
+
+Animation 
+It is a shorthand property for six of the animation properties:animation-name, animation-duration, animation-timing-function, animation-delay,
+animation-iteration-count and animation-direction.
+
+Syntax:
+animation:name duration timing-function delay iteration-count direction
+
+Example:
+<!doctype html>
+<head>
+<style type = "text/css">
+div
+{
+width:100px;height:100px;
+background:blue;border-radius:10px;
+animation:move 5s 5;
+}
+@keyframes move
+{
+from {left:0px;}
+to {left:200px}
+}
+</style>
+</head>
+<body>
+<div>
+</div>
+</body>
+
+
+What is Scripting?
+It is loosely or weakly typed or light weight programming.
+
+Types of Script
+Scripts are classified into the following two types:
+1. Client Side Scripts - Script which is running within the browser. Example - Live Script, JavaScript, jQuery, AngularJS, EmberJS etc.
+2. Server Side Scripts - Script which is running within the web server. Example - Python -> WSGI(NO-1), JSP -> Tomcat, PHP -> Apache, ASp -> IIS(Internet Information Services)
+
+Scripting languages:
+1. Interpreter based(Read line by line)
+2. Implicit declaration of data types
+3. Easily integrates with other technologies
+
+Programmimg languages:
+1. Compiler, interpreter and hybrid based
+2. Explicit declaration of data types
+3. Difficult to integrate with other technology
+
+What is JavaScript?
+JS is the scripting language of HTML and the web. It was developed by Brendan Eich at NetScape in december 1995 under the name of LiveScript. JavaScript's
+official name is ECMAScript(European Computer Manufacturer's Association)
+
+Features of JS
+1. It gives HTML designers a programming tool
+2. JS can react to events
+3. Makes webpages responisve
+4. Detects the user's browser, OS, screen Size etc
+5. Gives the user more control over the browser
+
+Syntax 1:
+<script type = "text/javascript" language = "javascript">
+Statements;
+Statements:
+</script>
+
+Syntax 2:
+<script type = "text/javascript">
+Statements;
+Statements;
+</script>
+
+Syntax 3
+<script>
+Statements;
+Statements
+</script>
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+document.write("welcome to JavaScript");
+document.write("<br/>");
+document.write("Thank You")
+</script>
+</head>
+
+<script> ==> It is a tag from html
+type ==> It is the attribute
+text/javascript ==> It is the object for webpage
+write ==> It is the method used to write messages on webpage
+; ==> It is optional. It indicates statement ends
+
+Example:
+<!doctype html>
+<head>
+<pre>
+<script type = "text/javascript">
+document.writeln("welcome to JavaScript");
+document.write("Thank You")
+</script>
+</head>
+
+
+JS Comments:
+In this, comments are ignore statements. Using this comment notations, we can declare customised statements within the source code.
+JS have 2 types of comments:
+1. Single line comment - This comments are restricted to specific line. It is used using //
+2. Multiline comment - This comments are applicable to 1 or more lines. It is used using /* */
+
+
+JS place in HTML file:
+There is a flexibilty given to include JS code anywhere in the HTML document. But following are the most preferred ways to include JS in HTML file:
+1. Script in <head>......</head> section
+2. Script in <body>......</body> section
+3. Script in <body>......</body> and <head>.......</head> section
+4. Script in external file and then include in <head>.....</head> section
+
+
+Using external JS
+JS can also be placed in external files. External JS files often contains code to be used on several different web pages. External JS files have the extension
+.js
+
+NOTE: External script cannot contain the <script></script> tags.
+	  To use an external script, point to the .js file in the "src" attribute of the <script> tag.
+	  
+
+ Step 1 - Create JS file
+ document.write("<h1>Welcome to JS External programming</h1>");
+ document.write("<b>Bye");
+ 
+ Step 2 - Create HTML file
+ <html>
+ <head>
+ <script src = "fileLocation/JSfileName.js"></script>
+ </head>
+ <body>
+ </body>
+ 
+ 
+ JS Blocks
+ JS statements can be grouped together in blocks. Blocks start with a left curly bracket { and ends with a right curly bracket }. The purpose of the block is 
+ to make the sequence of statements execute together.
+ 
+ 20/06/2019
+ Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+document.write("welcome to JavaScript");
+</script>
+</head>
+
+
+JS popup boxes
+JS has 3 kind of popup boxes:
+1. Alert Box
+2. Confirm Box
+3. Prompt Box
+
+Alert Box
+An alert box is often used if you want to make sure that a information has come from the user. When an alert box pops up, the user will have to click OK to
+proceed.
+
+Syntax:
+alert("Message");
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+alert("Enter required input");
+</script>
+</head>
+
+Confirm Box
+It is often used to verify or accept something by the user. When a confirm box pops up, the user will have to click either OK or cancel to proceed. If the 
+user clicks OK, the box returns true. If the user clicks Cancel, the box returns false.
+
+Syntax;
+confirm("Message");
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+x = confirm("Click OK or Cancel");
+alert("Clicked result is: "+x)
+</script>
+</head>
+
+Prompt Box
+It is often used if we want the user to input a value before entering a page. When a prompt box pops up, the user will have to click either OK or Cancel to 
+proceed after entering an input value. If the user clicks OK, the box returns the input value. If the user clicks Cancel, the box returns null.
+
+Syntax:
+prompt("sometext","defaultvalue");
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+var x = prompt("Enter any number:","100");
+alert("Entered number is" "+x)
+</script>
+</head>
+
+
+Variables in JS
+Rules:
+1. A variable may include only the letters a-z, A_Z, 0-9, the $ symbol and the _ symbol.
+2. The first character of a variable cannot be a digit.
+3. Variable names are case-sensitive.
+4. There is no set limit on variable name lengths.
+5. Declaration of a variable is done using var keyword.
+
+
+DataTypes in JS
+JS supports the following 2 types of data types:
+1. Primitive data types - 5 Primitive data types namely String, Number, Boolean, Undefined and Null. These are the most simple forms of data we can use in JS.
+2. Non Primitive data types - Declaring variable with objects. When a variable is declared with the keyword "new", the variable is declared as an object.
+
+Syntax:
+var name = new String();//String Object
+
+
+HTML<noscript> Tag
+It is used to provide an alternative content for users that have disabled scripts in their browser or have a browser that doesn't support client-side
+scripting. It is a paired tag.
+
+Syntax:
+<noscript>.......</noscript>
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+document.write("welcome to JavaScript");
+document.write("<br>")
+document.write("JavaScript is Enabled");
+</script>
+</head>
+<body>
+<noscript>
+<p style = "color:red;font-family:candara;font-size:40px">Your browser does not supports JavaScript. Please update script settings.</p>
+</noscript>
+</body>
+
+
+JS Operators
+It supports different types of operators:
+1. Arithmatic Operators
+Operator		Description			Example
++				Addition			j + 12
+-				Subtraction			j - 22
+*				Multiplication		j * 7
+/				Division			j / 3.14
+%				Modulus				j % 6
+++				Increment			j++
+--				Decrement			j--
+
+2. Assignment Operators
+Operator		Description						Example
+==				is equal to						j == 42
+!=				is not equal to					j != 46
+>				is greater than					j > 2
+<				is less than					j < 10
+>=				is greater than or equal to		j >= 6
+<=				is less than or equal to		j <= 8
+
+3. Logical operators
+Operator		Description			Example
+&&				And					j == 1 && k == 2
+||				Or					j == 2 || j == 8
+!				Not					!(j == k)
+
+
+JS Conditional Statements
+In JS, we have the following conditional statements:
+1. if 
+2. if else
+3. if else if else
+4. switch
+
+if
+Use this statement to execute some code only if a specified condtion is true.
+
+Syntax:
+if(condition)
+{
+	true statements
+	true statements
+}
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+var x = promp("Enter any number ")
+if x > 0
+{
+document.write("Positive number entered ");
+}
+</script>
+</head>
+
+
+if else
+Use this statement to execute some code if the condition is true and another code if the condition is false.
+
+Syntax:
+if(condition)
+{
+	True Block Statements
+	True Block Statements
+}
+else
+{
+	False Block Statements
+	False Block Statements
+}
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+var x = promp("Enter any number ")
+if x >= 0
+{
+	document.write("Positive number entered ");
+}
+else
+{
+	document.write("Negative number entered");
+}
+</script>
+</head>
+
+
+if else if else
+Use this statement to select one of several blocks of code to be executed.
+
+Syntax:
+if(condition1)
+{
+	
+}
+else if(condition2)
+{
+	
+}
+else if(condition3)
+{
+	
+}
+else
+{
+	
+}
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+var x = promp("Enter any number ")
+if x > 0
+{
+document.write("Positive number entered ");
+}
+else if (x < 0)
+{
+	document.write("Negative number entered");
+}
+else if(x == 0)
+{
+	document.write("0 entered ");
+}
+else
+{
+	document.write("Invalid input")
+}
+</script>
+</head>
+
+21/06/2019
+switch
+Use this statement to select one of many blocks of code to be executed. switch case statements are alternative ways of executing statements selectively
+based on certain conditions.
+
+Syntax:
+switch(n)
+{
+case 1: execute codeBlock 1
+break;
+case 2: execute codeBlock 2
+break;
+default: execute default codeBlock
+}
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+var x = promp("Enter any course name ")
+switch(course)
+{
+	case "HTML":
+			document.write("You have selected ", course);
+	break;
+	
+	case "CSS":
+			document.write("You have selected ",course);
+	break;
+	
+	case "JS":
+			document.write("You have selected ",course);
+	break;
+	
+	default:
+			document.write("You have selected invalid course ")
+}
+</script>
+</head>
+
+
+JS Looping statements
+JS supports different looping statements 
+
+for
+It executes block of statements repeatedly untill the given condition satisfies.
+
+Syntax:
+for(initialization;test condition;iteration statement)
+{
+	statement to be executed
+	
+}	
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+for(i = 1; i <= 5; i++)
+{
+	document.write("The value is "+i)
+	document.write("<br>");
+}
+</script>
+</head>
+
+
+while
+It executes block of statements n times.
+
+Syntax:
+while(variable <= endvalue)
+{
+	code to be executed
+}
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+i = 0;
+while(i <= 5)
+{
+	document.write("The value is "+i)
+	document.write("<br>");
+	i++;
+}
+</script>
+</head>
+
+
+do-while
+It executes block of statements n + 1 times.
+
+Syntax:
+do
+{
+	code to be executed
+}
+while(variable <= endvalue)
+{
+	code to be executed
+}
+
+Example:
+<!doctype html>
+<head>
+<script type = "text/javascript">
+var i =1
+do
+{
+	document.write("The value is "+i)
+	document.write("<br>");
+	i++;
+}
+while(i <= 10)
+{
+	document.write("The value is "+i)
+	document.write("<br>")
+}
+</script>
+</head>
+
+
+Working with Bootstrap
+Bootstrap is a sleek, intuitive and powerful mobile first front-end framework for faster and easier web development.
+OR
+One framework, every device
+
+Features of bootstrap
+1. Save lots of time
+2. Responsive features
+3. Consistent design
+4. Easy to use
+5. Compatible with browsers
+6. Open source
+
+Using Bootstrap through donwloaded files
+<!doctype html>
+<html lang = 'en-IN'>
+<head>
+<title>
+Responsive web applications
+</title>
+</head>
+<link href = "location/css/bootstrap.min.css" rel = "stylesheet"/>
+<script src = "location/js/bootstrap.min.js"></script>
+<script src = "location/js/jquery.min.js></script>
+<body>
+<h1>Hello Welcome to Bootstrap</h1>
+<code>Hello
+It is code related
+</code>
+<pre>Hello
+It is 
+pre tag from
+HTML5
+</pre>
+</body>
+</html>
+
+
+Using Bootstrap through CDN(Content Delivery Network)
+<!doctype html>
+<html lang = 'en-IN'>
+<head>
+<title>
+Responsive web applications
+</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<body>
+<h1>Hello Welcome to Bootstrap</h1>
+<code>Hello
+It is code related
+</code>
+<pre>Hello
+It is 
+pre tag from
+HTML5
+</pre>
+</body>
+</html>
+
+
+Containers
+Bootstrap requires a containing element to wrap site contents and house our grid system. You may choose one of two container to use in our projects.
+1. Use the .container class for a responsive fixed width container.
+
+Syntax:
+<div class = "container">
+--------
+--------
+</div>
+
+2. Container-Fluid - Use the .container-fluid class for a full width container, spanning the entire width of the viewport.
+
+Syntax:
+<div class = "container-fluid">
+--------
+--------
+</div>
+
+Example:
+<!doctype html>
+<head>
+<title>
+Responsive web applications
+</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<body>
+<div class = "container-fluid">
+<h1>Hello Welcome to Bootstrap</h1>
+<code>Hello
+It is code related
+</code>
+<pre>Hello
+It is 
+pre tag from
+HTML5
+</pre>
+</div>
+</body>
+
+
+Bootstrap Buttons
+<!doctype html>
+<head>
+<title>
+Responsive web applications
+</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<body>
+<div class = "container-fluid">
+<button type = "button" class = "btn btn-default">Default
+</button>
+<button type = "button" class = "btn btn-primary">Primary
+</button>
+ <button type = "button" class = "btn btn-sucess">Sucess
+</button>
+</div>
+</body>
+
+
+Bootstrap Images
+<!doctype html>
+<head>
+<title>
+Responsive web applications
+</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<body>
+<div class = "container-fluid">
+<img src = "location/imageName.extension" alt = "Sorry No Image " class = "img-circle">
+</div>
+</body>
+*************************************************************************************
+24/06/2019 
+	                   	DJANGO STARTED
+Working with Django
+
+Statement
+It is a type of logical instruction
+
+Command
+It is a precompiled or executable programm
+
+Shell
+Collection of commands
+
+Program
+Collection of logical instruction
+
+Software
+Collection of specialized program
+
+Types of software
+Generally softwares are categorised into 2 types
+1. System Software
+2. Application Software
+
+System Software
+It is a computer software designed to provide a platform to other software. It is classified into 2 types
+1. OS
+2. Utility Software
+
+Application Software
+It is designed to perform a group of co-ordinated functions, tasks or activities for the benefit of the user.
+
+OS
+It is a system software that manages computer hardware and software resources
+
+Types of OS
+OS is classified into the following 3 types
+1. Single User Single Tasking(SUST)
+2. Single User Multi Tasking(SUMT)
+3. Multi User Multi Tasking(MUMT)
+
+Library
+A library is a collection of precompiled routines that a program can use.
+
+Framework
+A framework is a platform for developing software applications. It include code libraries, a compiler and other programs
+
+Web Framework(WF)/WAF-Web Framework
+It is server side application framework. It is designed to support the development of dynamic websites
+
+Popular Stacks
+Django stack: JS, Python, Django, Any RDBMS
+MERN stack: JS, MongoDB, Express, ReactJS, Node.js
+MEAN stack: JS, MongoDB, Express, AngularJS, Node.js
+LAMP stack: JS, Linux, Apache, MySQL, PHP
+LEMP stack: JS, Linux, Nginx, MySQL, PHP
+
+Full Stack JS Developer
+A full stack JS developer is a person who can develop both client and server software
+1. Program a browser(HTML, CSS, JS, jQuery etc)
+2. Program a server(Node.js)
+3. Program a database(MongoDB)
+
+Python Frameworks
+Python Framework are of 2 types
+1. Micro Frameworks
+2. Full Stack Frameworks
+
+Micro Frameworks
+To refer to minimalistic web application frameworks. These are suitable for mainly small application. Examples are Flask, Bottle, cherrypy
+
+Full Stack Frameworks
+There are 2 main components of a website
+1. Front-End(Client Side) - It is what a user sees on a website. HTML, CSS and CSS3, JS, jQuery, Bootstrap
+2. Back-End(Server Side) - It is a technology used to decide what a user sees on the front-end. Language such as Python, Java, PHP and framework such as Django,
+Struts, Spring, Flask and DB such as Oracle, SQLite, MySQL
+
+Django
+It is a python MVT(Model View Tempelate) web framework.
+OR
+The web framework for perfectionist with deadlines
+OR
+It encourages rapid development and clean, pragmatic design
+OR
+It is a free open-source full stack python web framework
+
+Django was developed by Adrian Holovaty and Simon Wilison. It is maintained by DSF. It is internal project for Lowrence Jornal-world News Paper in 2003. It
+is dedicated to famous guitarist Django Reinhardt.
+
+Django Design Philosophies
+1. Loosely Coupled
+2. Less Coding
+3. Don't repeat yourself
+4. Fast Development
+5. Clean Design
+
+Python Web Frameworks
+Django, TurboGears, Pylons, Zope, Quixote, web2py, Google App Engine, CherryPY, Pyramid, Flask, Dash, Bottle, Web.py
+
+Django Version History
+1.0 		3 Sep 2008
+1.5			26 Feb 2013
+2.0			Dec 2017
+
+Django Features:
+1. Object Relational Mapper(ORM)
+2. MVT(Mode View Tempelate)
+3. Rapid Development and Fully Loaded
+4. Secure, SQL Injection attack, Cross Site Scripting, Cross Site request forgery
+5. Scallable and Open Source
+6. Versatile, SmallApps, BigApps, Scientific Apps, Organisations, GovApps
+7. LTS(Long Time Support) and Mobile-Friendly
+8. Simplified URL routing syntax
+9. Forms and generic views
+10. Pagination
+
+Django MVT
+The MVT(Model View Tempelate) is a software design pattern. It is a collection of 3 important components i.e. Model, View and Tempelate. The model helps to 
+handle database.
+The Tempelate is a presentation layer which handles UI part completely. The view is used to execute the business logic and interact with a model to carry
+data and renders a template.
+
+MVC vs MVT design patterns
+MVC
+Model ==> BackEnd ==> Storage ==> DataBase Logic
+View ==> Front-End ==> UI ==> Presentation Logic
+Controller ==> Middle ==> Business Logic
+
+MVT
+Model ==> BackEnd ==> Storage ==> DataBase Logic
+View ==> Middle ==> Coding ==> Business Logic
+Tempelate ==> Front-End ==> UI ==> Presentation Logic
+
+Django Architecture
+Django Architecture.png
+What is Django.png
+
+Web Server(WSGI)
+WSGI is the Web Server Gateway Interface. It is a specfication that describes how a web server communicates with web applications and how web applications can
+be chained together to process one request.
+
+Frameworks that run WSGI
+1. Django
+2. bobo
+3. Bottle
+4. CherryPy
+5. Appier
+6. Falcon
+7. Flask
+8. TurboGears
+9. Pyramid
+10. web2py
+
+25/06/2019
+pip
+pip is a package manager for the Python programming language.
+
+Syntax:
+pip list [options]
+
+Installation
+$python get-pip.py
+
+Upgrading pip:
+python -m pip install _U pip --user
+
+pip Commands:
+pip list
+pip help
+pip help install
+pip search django
+pip show django
+pip download django
+pip install virtualenv
+pip freeze>requirement.txt
+
+Django Environment setup
+Django develop environment consist of installing and setting up Python, Django and a DBMS.
+
+Django Realtime IDEs
+1. PYCHARM
+2. Sublime Text
+3. Atom
+4. Brackets
+
+Django Project
+It is a collection of applications and configurations that when combined together will make up the full web application or web site.
+
+Bank Projet
+It has the following list of different apps. Every app performs particular task.
+1. Bank Accounts Application
+2. Fund Transfer Application
+3. Transaction Application
+4. Beneficiary Application
+5. WReports Application
+
+NOTE: Django applications are reusable and pluggable
+
+Example:
+Polling App, News App, Every app provides one or more services to the end user
+
+Creating the first project in Django in cmd:
+django-admin startproject projectname
+
+26/06/2019
+Example:
+django-admin startproject BFSI
+cd BFSI
+tree /F
+BFSI <== Project Root
+	BFSI <== Django Root
+		__init__.py
+		settings.py
+		urls.py
+		wsgi.py
+	manage.py
+	
+Running the Django Projects
+Django project has a built in development server
+
+Command:
+python manage.py runserver
+
+Server will run with few warnings. Just open any web browser and enter 127.0.0.1:8000
+
+Django Projetcs files and description
+__init__.py
+It is an empty file that tells the python that this directory should be considered as python package.
+
+settings.py
+It is the central configuration for all Django projects.
+
+By default, INSTALLED_APPS contains the following apps:
+django.contrib.admin - The admin site
+django.contrib.auth - An authentication system
+django.contrib.contenttypes - A framework for content types
+django.contrib.sessions - A session framework
+django.contrib.messages - A messaging framework
+django.contrib.staticfiles - A framework for managing static files 
+
+MIDDLEWARE
+It is a framework of hooks into Django's request/response processing. It has the following major components:-
+1. Tempelates
+2. DataBase
+3. WSGI
+4. SECRET_KEY
+5. ALLOWED_HOSTS
+6. AUTH_PASSWORD_VALIDATORS
+
+Managing static files
+Websites generally need to serve additional files such as images, JS or CSS
+
+urls.py
+Contains URL pattern for the Django project
+
+wsgi.py
+Contains WSGI configuration properties for the Django project. It is the recommended approach to deploy Django applications on production
+
+manage.py
+It is a command line utility, which allows us to interact with the project in various ways. It is also used to manage an application. It can perform app creation,
+runserver, run test cases and migrations.
+
+django-admin help --commands
+
+27/06/2019
+Changing Django Server Port
+py manage.py runserver 8888
+Server now runs on port number 8888
+We have to send the request with this port number only 127.0.0.1:8888
+NOTE - If a port number is already alloted, it displays "This address is restricted"
+
+Best Books for Django
+Django for beginners => William S Vincent
+Build your first website with Django 2.2.2 => Nigel George
+
+Creating and configuring Django Apps:
+A Django app is created to perform a particular functionality for your entire web application
+
+Example:
+Login App, Registration App, Polling App
+
+App and Project in Django
+1. An app is a web application which is written to perform business logic
+2. A project is a collection of configuration files and apps for particular website
+3. An app can be in multiple project
+4. A project can contain multiple apps
+
+Creating an app
+To create an app, we can use the following command
+
+Syntax:
+django-admin startapp appname
+py manage.py startapp appname
+
+Example:
+django-admin startapp WebApp
+py manage.py startapp WebApp
+
+WebApp consist of following Structure:
+|-WebApp
+		__init__.py
+		admin.py
+		apps.py
+		migrations
+				__init__.py
+		models.py
+		tests.py
+		views.py
+		
+		
+__init__.py
+It is an empty file that tells to the Python that this directory should be considered as a Python package.
+
+admin.py
+You can register your models here which Django will use them with Django's admin interface
+
+apps.py
+Here you can place application specfic configuration
+
+models.py
+We define our database models, which Django automatically translates into database tables
+
+tests.py
+Here you can store test functions to test your code
+
+views.py
+Here we handle the request/response logic for our web app
+
+migrations
+This directory stores database specfic information as it relates to the models
+
+Configuring app in project: //settings.py
+Go to installed_apps. Then at the end or start, provide recently created app
+
+Example:
+# User Defined Apps
+	'WebApp',
+	
+URLs:
+This is python script that will store all URL patterns for our project
+
+Views:
+A view is a place where we put our business logic of the application
+
+How URLs and Views works
+URLs and Views.png
+
+28/06/2019
+Example 1:
+STEP 1: views.py
+from django.shortcuts import render
+from django.http import HttpResponse
+#Create your views here
+def Home_Page(request):
+	return HttpResponse("hello world")
+	
+STEP 2: urls.py
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+			path('admin/',admin.site.urls),
+			path('home/',views.Home_Page),
+			]
+			
+STEP 3:Run the server
+py manage.py runserver
+
+STEP 4:Open web browser, send request to server:127.0.0.1:8000/home
+
+
+Example 2:
+STEP 1: views.py
+from django.shortcuts import render
+from django.http import HttpResponse
+
+#Create your views here
+def SuccessPage(request):
+	return HttpResponse("<h1 style = 'color:red; font-family:tahoma; font-size:100px'> Welcome to successful page</h1>")
+	
+STEP 2:urls.py
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+			path('admin/',admin.site.urls),
+			path('success/', views.SuccessPage),
+			]
+			
+STEP 3:Run the server
+py manage.py runserver
+
+STEP 4:Open web browser, send request to server:127.0.0.1:8000/success
+
+01/07/2019
+Django - URL Mapping/URL Dispatcher
+A clean, elegant URL scheme is an important detail in a high quality web application. Django lets you design URLs however you want, with no framework 
+limitations. To design URLs for an app, you create a Python module informally called a URLconf(URL configuration).
+
+URL
+It is a web address or a resource on the internet>
+
+Example:
+http://www.youtube.com
+
+TO customize URLs in Django, we have the following 3 built in functions.
+1. path()
+2. re_path()
+3. include()
+
+
+path()
+It return an element for the inclusion in urlpatterns. It os used to map the URL and call the specified view.
+
+Syntax:
+path(route, view, kwargs=None, name=None)
+
+a. The route argument should be a string, that contains a URL pattern.
+b. The view argument is a view function.
+c. The kwargs argument allows you to pass additional arguments to the view function or method.
+d. The name argument allows naming URL patterns.
+
+Example: Passing int value
+STEP 1:views.py
+
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+def Home_Page(request, id):
+    return HttpResponse(f"hollo World-{id}")
+
+STEP 2:urls.py
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('home/<int:id>/', views.Home_Page),
+]
+
+STEP 3: Run Server
+py manage.py runserver
+
+STEP 4:
+Open the browser
+
+NOTE: To make a link our default homepage, do this in the urls.py
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.Home_Page),	#do not name this function as it was named before home
+    path('success/', views.SuccessPage),
+]
+
+02/07/2019
+Path function name attribute
+It allows you to name URL patterns. This pattern can be matched in reverse order.
+
+STEP 1: views.py
+
+from django.shortcuts import render
+from django.http import HttpResponse, HttpResponseRedirect
+from django.urls import reverse
+
+
+def Home(request):
+    return HttpResponse("<a href = '/hi'>HELLO WORLD</a>")
+
+
+def MyView(request):
+    return HttpResponseRedirect(reverse('bye'))
+
+
+def ByeView(request):
+    return HttpResponse("<h1 style = 'color:red; font-family:tahoma; font-size:100px'> Good Bye </h1>")
+
+STEP 2: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('home/', views.Home, name='home'),
+    path('hi/', views.MyView, name='hi'),
+    path('bye/', views.ByeView, name='bye')
+]
+
+
+kwargs attribute
+It allows you to pass additional arguments to the view. It is in dictionary format.
+
+STEP 1: views.py
+
+from django.shortcuts import render
+from django.http import HttpResponse, HttpResponseRedirect
+from django.urls import reverse
+
+
+def MyView(request, val1, val2):
+    msg = val1+" "+val2+"Home Page"
+    return HttpResponse(msg)
+
+	
+STEP 2: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+   path('admin/', admin.site.urls),
+   path('home/', views.MyView, {'val1':'Hey', 'val2':'Welcome to Django'}, name='home')
+]
+
+03/07/2019
+re_path()
+It returns an element that contains regular expressions.
+
+Syntax:
+re_path(route, view, kwargs=None, name=None)
+
+1. The route argument should be a string, that contais regular expressions, compatible with Python's re module.
+2. The view, kwargs, and name arguments are the same as for path().
+
+Example 1:
+
+STEP1:views.py
+
+from django.shortcuts import render
+from django.http import HttpResponse, HttpResponseRedirect
+from django.urls import reverse
+
+
+def Home_Page(request):
+    return HttpResponse("WELCOME TO HOME PAGE ")
+
+def Index_Page(request):
+    return HttpResponse("WELCOME TO INDEX PAGE ")
+
+STEP2: urls.py
+
+from django.contrib import admin
+from django.urls import path, re_path
+from WebApp import views
+
+urlpatterns = [
+   path('admin/', admin.site.urls),
+   re_path(r'^home/$', views.Home_Page),
+   re_path(r'^index/$', views.Index_Page),
+]
+
+Example 2:Using Python Regular Extensions
+
+STEP1: views.py
+
+from django.shortcuts import render
+from django.http import HttpResponse, HttpResponseRedirect
+from django.urls import reverse
+
+
+def Home_Page(request):
+    return HttpResponse("WELCOME TO HOME PAGE ")
+
+def Index_Page(request, year):
+    return HttpResponse(f"WELCOME TO INDEX YEAR PAGE {year}")
+
+STEP2: urls.py
+
+from django.contrib import admin
+from django.urls import path, re_path
+from WebApp import views
+
+urlpatterns = [
+   path('admin/', admin.site.urls),
+   re_path(r'^home/$', views.Home_Page),
+   re_path(r'^index/(?P<year>[0-9]{4})$', views.Index_Page),
+]
+
+
+include()
+A function that takes a full Python import path to another URLconf module that should be "included" in this place.
+
+Syntax:
+include(module, namespace=None)
+OR
+include(pattern_list)
+
+Parameters:
+module ==> URLconf module(or module name)
+namespace(str) ==> Instance namespace for the URL entries being included
+pattern_list ==> Iterable of path() and/or re_path() instances
+
+STEP1: Create urls.py at WebApp level
+
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+		path('index/',views.index),
+]
+
+STEP2: Include this urls.py into Root(Project) Config urls
+
+from django.urls import path,include
+urlpatterns = [
+		path('WebApp/',include('WebApp.urls'))
+]
+
+Advantages of urlpatterns at AppLevel instead of Project Level:
+1. It promotes reusability of Django applications across multiple projects
+2. Project level urls.py will be clean and more readable
+
+04/07/2019
+Working with Django Tempelate
+Django needs a convinient way to generate HTML dynimcally. The most common approach relies on templates. It is not recommended to write HTML code inside 
+Python script(views.py) because:
+1. It reduces readability as python code is mixed with HTML code.
+2. Python developer needs to concentrate on python and HTML
+
+NOTE
+1. To overcome these problems, a separate HTML file is created. This  HTML file is nothing but a template.
+2. By writing templates at project level one time, we can use these in multiple apps.
+
+
+Django Tempelate Configuration(DTC):
+Do the following updates in settings.py and run in command prompt.
+
+STEP1:
+BASE DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(__file__)
+
+In CMD - py.settings.py
+
+STEP2:
+BASE DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(os.path.abspath(__file__))
+In CMD - py settings.py
+
+STEP3:
+BASE DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(BASE_DIR)
+In CMD - py settings.py
+
+
+Creating project in Django
+1. django-admin startproject Tempelate_Project
+2. cd Tempelate_Project
+3. py manage.py startapp WebApp
+4. Add this App to the project in settings.py folder
+5. Create a 'templates' folder inside main project folder. In that, create a separate folder to hold templates
+6. Add templates folder to settings.py file
+
+
+NOTE:
+It is never recommended to hard code specfic locations.
+
+Configuring relative paths in TEMPLATES:
+STEP1: Assigning Tempelate Variable
+
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
+
+STEP2: Specify this TEMPLATE_DIR in settings.py
+
+TEMPLATES = [
+{
+...,
+'DIRS':[TEMPLATE_DIR,],
+},]
+
+05/07/2019
+Live Example on Tempelate
+
+STEP1:
+django-admin startproject Template_Project
+cd Template_Project
+django-admin startapp WebApp
+Do required settings, configure the app, templates folder creation and do settings
+
+STEP2: Creating welcome.html file
+<!doctype html>
+<html lang = "en">
+<head>
+	meta charset = "UTF-8">
+	<title>Django Templates...</title>
+</head>
+<body>
+<table>
+	<tr>
+		<th>StdNo</th>
+		<th>StdName</th>
+		<th>Result</th>
+	</tr>
+	<tr>
+		<td>101</td>
+		<td>Raaj</td>
+		<td>Pass</td>
+	</tr>
+	<tr>
+		<td>102</td>
+		<td>Ayush</td>
+		<td>Pass</td>
+	</tr>
+</table>
+</body>
+</html>
+
+STEP3: Creating GoodBye.html file
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Good Bye</title>
+</head>
+<body>
+<h1>Thank you for visiting our page</h1>
+</body>
+</html>
+
+STEP4: views.py
+from django.shortcuts import render
+#Create your views here
+def Welcome_Page(request):
+	return render(request, 'MyApp/Welcome.html')
+def GoodBye_Page(request):
+	return render(request, 'MyApp/GoodBye.html')
+	
+STEP5: urls.py
+from django.contrib import admin
+from django.urls import path
+from testApp import views
+
+urlpatterns = [
+	path('admin/', admin.site.urls),
+	path('wish/', views.Welcome_Page),
+	path('bye/',views.GoodBye_Page),
+]
+
+
+render() function:
+Combines a given template with a given context dictionary and returns an HttpResponse object with that rendered text.
+
+Syntax:
+render(request, template_name, context = None)
+
+Arguments:
+1. request - The request object used to generate this response.
+2. template_name - The full name of a template to use or sequence of template names
+3. context - A dictionary of values to add to the template context. By default, this is an empty dictionary.
+
+
+Django Template Language(DTL)
+Django template uses its own syntax to deal with variable, tags, expressions etc. A template is rendered with a context which is used to get value at a 
+web page. From python views.py, we can inject dynamic content to the template file by using template tags.
+
+Template Tags or Template Variables
+Variables associated with a context can be accessed by {{}}. A template can have variable names in doubly curly braces.
+
+Syntax:
+My name is {{name}}		(String interpolation)
+
+
+What is context
+It is a variable name , variable value mapping that is passed to a template. It is a dictionary with variable names as the "key" and their values as the
+"values".
+
+Syntax:
+{myvar1:101, myvar2:102}
+
+
+{%%} and {{}} in Django
+{%%} is basically used when you have an expression called tags.
+{{}} is used to simply access the variable.
+
+Example:
+STEP1: Creating HTML file
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Template Language</title>
+</head>
+<body>
+<h1>{{ dt_now }}</h1>
+</body>
+</html>
+
+STEP2: views.py
+
+from django.shortcuts import render
+import datetime
+
+# Create your views here.
+
+def DateTime(request):
+    date = datetime.datetime.now()
+    dic = {'dt_now': date}
+    return render(request, 'MyApp/Welcome.html', context=dic)  # Context type is not mandatory
+	
+STEP3: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('date/', views.DateTime),
+]
+
+08/07/2019
+Working with static files
+We worked with text data into templates by using template tags. We will insert static files like images, css and javascript files etc inside template fils.
+
+Process to include Static files inside templates:
+1. Create a folder named 'static' inside main project folder.
+2. In 'static' folder, create 'images' folder to place image files.
+3. In 'static' folder, create 'images' folder to place image files.
+4. Create static directory path at settings.py
+		STATIC_DIR = os.path.join(BASE_DIR,'static')
+5. Configure static directory path to settings.py
+		STATIC_URL = '/static/'
+		STATICFILES_DIRS = [
+				STATIC_DIR
+		]
+		
+Configuring static files to Django framework
+{%load staticfiles%} or {%load static%}
+This configuration should be added in the HTML file.
+
+To include image
+<img src = "{%static 'images/imageName.extension'%}">
+
+To include CSS file
+<link href = "{%static 'css/fileName.css'%)" rel = "stylesheet">
+
+Note:
+At the beginning of HTML file, next to <doctype html>, we have to include template tag i.e.:
+	{%load staticfiles%} or {%load static%}
+	
+09/07/2019
+Example: 
+STEP1: Creating Project and App
+
+django-admin startproject projectname
+cd projectname
+django-admin startapp webapp
+py manage.py runserver
+
+STEP2: Create Welcome.html in the custom directory with template tags/variables
+
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang = "en-IN">
+<head>
+<meta charset = "utf-8">
+<title>Hello Static Page</title>
+<link href = "{%static 'css/MyFile.css'%}" rel = "stylesheet"/>
+</head>
+<body>
+<h1>{{txt}}</h1>
+<h1>{{name}}</h1>
+<h1>Current date and time:{{date_now}}</h1>
+<img src = "{%static 'images/django.png'%}" alt = "SorryNoImg">
+<img src = "{%static 'images/IndiaElections.png'%}" alt = "Sorry no image">
+</body>
+</html>
+
+STEP3: MyFile.css
+img{
+height:50%;width:50%;
+margin:0 5%;
+}
+h1
+{
+color:red; text-align:right; text-decoration:overline;
+}
+
+STEP4: views.py
+
+from django.shortcuts import render
+from datetime import datetime
+
+def TimeInfo(request):
+	date_now = datetime.now()
+	name = 'Gaurav'
+	th = int(date_now.strftime('%H'))
+	if th < 12:
+		txt = "Good Morning"
+	elif th < 16:
+		txt = "Good Afternoon"
+	else:
+		txt = "Good Night"
+	
+	dict = {'date_now': date_now, 'name': name, 'txt': txt}
+	return render(request, 'MyApp/Welcome.html', context = dict)
+	
+STEP5: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from webapp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+	path('tinfo/', views.TimeInfo),
+]
+
+10/07/2019
+DJANGO MODEL(DATA ACCESS LAYER- STORAGE LAYER)
+
+DataBase
+A database is an organised collections of data, generally stored and accessed electronically from a computer.
+
+DBMS
+It is system software used for creating and managing databases.
+
+RDBMS
+It is a database management system based on the relational model of data. It is introduced by EF Codd.
+
+Model
+A model is a class that represents table or collection in our database. It contains the essential fields and behaviour of the data that we are storing. It maps
+to a single database table. Each model is a python class that subclasses django.db.models.Model
+
+SQLite
+It is famous for its great feature zero-configuration, which means no complex setup or administration is needed.
+
+DataBase Configuration
+The simplest possible settings file is for a single-database setup using SQLite.
+settings.py - It o=is in dictionary format because in dictionary we can take any order.
+
+DATABASES = {
+		'default':{
+		'ENGINE':'django.db.backends.sqlite3',
+		'NAME':os.path.join(BASE_DIR, 'db.sqlite3'),
+		}
+}
+
+Configuring DataBase with the following parameters:
+
+ENGINE - Name of the database engine(It's like driver software. It is responsible to convert our python code into database specfic terminology. It varies from
+database to database
+
+NAME - DataBase name(Required database name)
+
+USER - DataBase login user name
+
+PASSWORD - DataBase login password
+
+HOST - The machine on which database server is running
+
+PORT - The port number on which database server is running
+
+
+How to check django database connection(SQLite3):
+We can check whether django database configuration are propertly configured or not by using the following  commands in cmd :-
+
+py mange.py shell
+ln[2]:from django.db. import connection
+ln[3]:d = connection.cursor()
+ln[4]:print(d)
+ln[5]:exit() or quit()
+
+NOTE - Encountering no error during the above process means our database configuration are correct
+
+NOTE - A cursor is a temporary work area created in the system memory, when a sql statement is executed.
+
+
+MySQL and Django: 
+MySQL is an open-source RDBMS 
+
+Configuration of MySQL DB:
+We have to install MySQLclient using pip: 
+	pip install --only-binary :all: mysqlclient
+	
+settings.py:
+DATABASES = {
+		'default':{
+		'ENGINE':'django.db.backends.mysql',
+		'NAME':'student',
+		'USER':'root',
+		'PASSWORD':'root',
+		'HOST':'localhost',
+		'PORT':3306
+		}
+}
+
+Checking Django DB connection(MySQL):
+py manage.py shell
+ln[2]:from django.db import connection
+ln[3]:d = connection.cursor()
+ln[4]:print(d)
+ln[5]:exit()
+
+If an error occurs "Authentication plugin 'caching_sha2_password' cannot be loaded."
+
+To solve this, write the syntax:
+ALTER USER 'username'@'ip_address' IDENTIFIED WITH mysql_native_password BY 'password';
+
+
+Oracle
+Oracle is an ORDBMS developed and marketed by Oracle corporation. It has the following four editions:
+1. Enterprise Edition
+2. Standard Edition
+3. Express Edition(XE)
+4. Oracle Lite
+
+
+Configuring Oracle Database:
+DATABASES = {
+		'default':{
+		'ENGINE':'django.db.backends.oracle',
+		'NAME':'XE',
+		'USER':'scott',
+		'PASSWORD':'tiger',
+		'HOST':'192.168.2.5',
+		'PORT':1521
+		}
+}
+
+
+PostgreSQL:
+Post-gres-SQL is an open source ORDBMS
+
+DATABASES = {
+		'default':{
+		'ENGINE':'django.db.backends.postgresql_psycopg2',
+		'NAME':'myproject',
+		'USER':'root',
+		'PASSWORD':'root',
+		'HOST':'localhost',
+		'PORT':'5432',
+		}
+}
+
+
+Django + MongoDB = Djongo
+Without changing the Django ORM use MongoDB as a backend database for our django project
+
+settings.py
+DATABASES = {
+		'default':{
+		'ENGINE':'djongo',
+		'NAME':'db_name',
+		'USER':'db_host',
+		}
+}
+
+
+Defining Django models:
+A model is a class which is used to contain essential fields and methods. Each model class maps to a single table in the database. Django model is a subclass
+of django.db.models.Model and each field of the model class represents a db field
+
+Django Model Fields
+These fields defined inside the Model class are the columns name of the mapped table.
+
+Field Name					Class
+
+AutoField					class AutoField
+CharField					class CharField
+DateField					class DateField
+EmailField					class EmailField
+FileField					class FileField
+ImageField					class ImageField
+TextField					class TextField
+
+Field Options
+Each field requires some arguments that are used to set column attributes
+
+Field Options				Particulars
+
+Null						Django will store empty values as NULL
+Blank						It is used to allow fields to be blank
+Default						The default value for the field
+primary_key					It is the primary key for the model
+Unique						It must be unique throughout the table
+
+11/07/2019
+Creating a live project on Django Models:
+
+STEP1:
+django-admin startproject projectname
+
+STEP2:
+cd projectname
+
+STEP3:
+django-admin startapp WebApp
+
+STEP4:
+Do required configuration like templates, static, app etc
+
+STEP5: Configure in DataBase
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'employee',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': 3306,
+    }
+}
+
+STEP6: Connect to MYSql Client
+
+STEP7: Create database employee;
+
+STEP8: use employee;
+
+STEP9: models.py
+from django.db import models
+
+# Create your models here.
+
+class EmpModel(models.Model):
+    EmpId = models.IntegerField()
+    EmpName = models.CharField(max_length=30)
+    EmpSal = models.IntegerField()
+    EmpAdd = models.CharField(max_length=30)
+	
+NOTE: This model class will be converted into database tables. Django is responsible for that.
+
+The above EmpModel would create a database table as follows:
+CREATE TABLE WebApp_Emp(
+	"id" serial NOT NULL PRIMARY KEY,
+	"EmpId" varchar(30) NOT NULL,
+	"EmpName" varchar(30) NOT NULL,
+	"EmpSal" varchar(30) NOT NULL,
+	"EmpAdd" varchar(30) NOT NULL
+);
+
+NOTE:
+1. Table contains an auto-created 'id' field
+2. The name of the table is a combination of app name and model name
+
+What is migration
+A migration allows you to move databases from one design to another i.e. converting Model Class into Database specfic SQL code
+
+py manage.py makemigrations
+Migrations for 'WebApp':
+WebApp/migrations/0001_initial.py
+Create model Emp
+
+NOTE:
+In the migrations folder 0001_initial.py, it contains all migrations related to database.
+
+Syntax:
+AppName_ClassName
+
+Example:
+WebApp_Emp
+
+A model class is a combination of 
+1. Table Name
+2. Fields
+3. Datatypes
+
+Table Name: WebApp_Emp
+Fields: EmpId, EmpName, EmpSal and EmpAdd along with one extra field: id
+DataTypes: EmpId is of type Integer, EmpName is of type Char and max_length is 30 characters
+
+mysql> select * from WebApp_Emp;		#DISPLAYS ERROR
+
+How to view SQL code of migrations
+py manage.py sqlmigrate WebApp 0001
+
+BEGIN;
+Create model Emp
+CREATE TABLE "WebApp_Emp"("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "EmpId" integer NOT NULL, "EmpName" varchar(30) NOT NULL,
+"EmpSal" varchar(30) NOT NULL, "EmpAdd" varchar(30) NOT NULL);
+COMMIT;
+
+
+How to generate SQL tables
+After generating sql code, we have to execute that sql code to create table in database. "migrate" commands create several tables internally such as security,
+authentication, admin, sessions, contenttypes related.
+
+py manage.py migrate
+
+Goto MySQL client:
+mysql> show tables;
+
+15/07/2019
+Difference between "makemigrations" and "migrate"
+"makemigrations" is responsible to generate SQL code for Python model class whereas "migrate" is responsible to execute that SQL code so that tables will be
+created in the database
+
+Creation of "SUPER USER" to login to admin iterface
+1. py manage.py createsuperuser
+2. Start the server and login to admin interface using the created credentials
+3.  User Name: root
+	Email: root@root.com
+	Password: root
+	Password(again): root
+4. Super User created Successfully
+5. py manage.py runserver
+6. Provide created username and password to login. It displays Django administration. It is a Django admin dashboard. Since we can't see any Emp table here, do
+the following---
+
+"REGISTER MODEL INSIDE ADMIN INTERFACE:(admin.py)"
+
+METHOD 1:
+from django.contrib import admin
+from WebApp.models import EmpModel
+admin.site.register(EmpModel)
+
+Adding Users:
+In the admin interface of Django, Click add==>Add few records==>Click on SAVE
+
+mysql>select * from WebApp_EmpModel
+
+NOTE: If we use the METHOD 1, every record in the django admin is visible as objects
+
+
+METHOD 2:
+from django.contrib import admin
+from WebApp.models import EmpModel
+
+class EmpAdmin(admin.ModelAdmin):
+	list_display = ['EmpId','EmpName','EmpSal','EmpAdd']
+admin.site.register(EmpModel,EmpAdmin)
+
+NOTE: After implementing the above method, refresh the URL. It shows the created table.
+	  Goto admin.py, add 'id' column in the list and refresh the Admin page(URL)
+	  
+"id" field in Models:
+1. For every table(model), Django will generate a special column named with 'id'. It is the primary key.
+2. This field "id" is auto incremented field and hence while inserting data, it is "autofield".
+3. We can override the behaviour of "id" field and we can make our own field as "id".
+4. Every field by default is NOT NULL
+
+
+The Python Tempelate Engine:
+Jinja2 is one of the most used template engines for Python. It is inspired by Django's templating system but extends it with an expressive language that gives
+template authors a more powerful set of tools.
+
+Jinja2 is a full featured template engine for Python. It has full unicode support, an optional integrated sandboxed execution environment, is widely used and
+is BSD licensed.
+
+Jinja2 Features:
+1. Jinja is Beautiful
+2. Jinja is Powerful
+3. Sandboxed execution mode
+4. Template inheritance
+5. High performance
+6. Configurable syntax
+
+17/07/2019
+What is query set
+A query set is, in essence, a list of objects of a given model. Query set allows you to read the data from the database, filter it and order it.
+
+
+Faker Module
+We can use faker module to generate fake data for our database models. Faker is a python package that generates fake data for you.
+
+URL:
+https://anaconda.org/conda-forge/faker
+
+Installation:
+For CONDA:
+conda install-c conda-forge faker
+
+For PYTHON:
+pip install faker
+
+
+Syntax:
+from faker import Faker
+
+Example:
+from faker import Faker
+fake = Faker()
+print(fake.email())
+print(fake.country())
+print(fake.name())
+print(fake.text())
+print(fake.latitude(), fake.longitude())
+print(fake.url())
+
+Example:
+from faker import Faker
+fake = Faker()
+for i in range(10):
+	print(fake.address())
+	
+18/07/2019
+Django Forms or Model Forms
+It is a class which is used to create an HTML form by using the Model. It is an efficient way to create a from without writing HTML code. Django automatically
+does it for us to reduce the app development time. The main purpose of forms is to take user input.
+
+Example:
+login, registration, enquiry etc.
+
+From the forms, we can read input data provided by the end user and we can use that data based on the requirement. We may store this data in the database for 
+future purpose. We may use this data just for validation purpose or authentication purpose etc. Here we have to sue django specific forms but not HTML forms.
+
+
+Advantages of Django Forms:
+1. We can develop forms with Python code
+2. We can generate HTML form widgets
+3. Validating data is simple and easy
+4. Processing data into python data structures like list,se
+5. Creaton of forms based on models
+
+
+Example 1:
+
+Step1: Create inside a python file named 'forms.py' inside WebApp
+
+from django import forms
+class EmpForm(forms.Form):
+    name = forms.CharField()
+    salary = forms.IntegerField()
+
+STEP2: Make the changes inside views.py
+
+from django.shortcuts import render
+from WebApp import forms
+
+
+# Create your views here.
+def EmpView(request):
+    form = forms.EmpForm()
+	MyDict = {'form': form}
+    return render(request, 'MyApp/Welcome.html',
+                  {'form': form})  # {'form': form} This can be used to replace 'context=MyDict'
+
+NOTE: views.py is responsible to send this form to the template html file
+
+STEP3: Welcome.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Based Forms</title>
+</head>
+<body>
+{{ form }}
+</body>
+</html>
+
+STEP4: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('welcome/', views.EmpView),
+]
+
+
+Example 2:
+
+Step1: Create inside a python file named 'forms.py' inside WebApp
+
+from django import forms
+class EmpForm(forms.Form):
+    name = forms.CharField()
+    salary = forms.IntegerField()
+
+STEP2: Make the changes inside views.py
+
+from django.shortcuts import render
+from WebApp import forms
+
+
+# Create your views here.
+def EmpView(request):
+    form = forms.EmpForm()
+	MyDict = {'form': form}
+    return render(request, 'MyApp/Welcome.html',
+                  {'form': form})  # {'form': form} This can be used to replace 'context=MyDict'
+
+STEP3: Welcome.html
+
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Based Forms</title>
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="{% static 'css/MyFile.css' %}" rel="stylesheet">
+</head>
+<body>
+<h1>Employee sample form</h1>
+<div class="container" align="center">
+<form method="post">
+{{ form.as_p }}
+<input type="submit" value="Employee" class="btn btn-success">
+</form>
+</div>
+</body>
+</html>
+
+STEP4: MyFile.css
+body{
+    background: url("../images/halloween.jpg") no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: "Agency FB", fantasy;
+    text-align: center;
+    color: yellow;
+
+}
+
+19/07/2019
+NOTE:
+If we submit this form, we will get 403 status code responsible forbidden(403) CSRF verification failed. Request aborted.
+ If method='post' not declared, it never shows any forbidden error.
+
+1. CSRF(Cross site request forgery) token missing or incorrect
+2. Every form should satisfy CSRF verification, otherwise Django won't accept our form
+3. It is meant for website security
+4. Therfore, we have to add csrf_token in our form @Template
+
+Go to Welcome.html
+
+<body>
+<h1>Employee sample form</h1>
+<div class="container" align="center">
+<form method="post">
+{{ form.as_p }}
+    {% csrf_token %}
+<input type="submit" value="Employee" class="btn btn-success">
+</form>
+</div>
+</body>
+
+NOTE:
+If we add "csrf_token", then in the generate form, the following hidden field will be added, which makes our post request secure
+
+
+Inspect element of our website(F12) and observe the following:
+<input type="hidden" name="csrfmiddlewaretoken" value="BU6DbIMjCNRAdqtfwZNUJDI4vWsx1H8rkbOZ7u7LF6YwWjfjffGrOnXSCs6iU1nD">
+
+The value of this hidden field keeps on changing from request to request. Hence, it is impossible to forge our request. If we open view source code, it displays
+"Document Expired".
+
+
+DJANGO FORM VALIDATIONS
+Django provides built-in  methods to validate form data automatically. Django forms submit only if it contains CSRF tokens. It uses a clean and easy approach
+to validate data.
+
+The "is_valid()" method is used to perform validation for each field of the form. It is defined in Django Form class. It returns True, if data is valid and 
+places all data into a cleaned_data attribute.
+
+We can implement validation logic by using the following 2 ways:
+1. Explicitly by the programmer by using clean methods
+2. By using django in-built validators
+
+EXPLICITLY BY THE PROGRAMMER BY USING CLEAN METHODS:
+In the Form class for any field, if we define clean method, then at the time of submitting the form, Django will call this method automatically to perform
+validations. if the clean method won't raise any errors, then only form will be submitted.
+
+Example: Live project on Django validations
+
+STEP1:
+django-admin startproject ProjectValidation
+cd ProjectValidation
+django-admin startapp WebApp
+
+STEP2:
+Templates and Static folder configuration
+
+STEP3: forms.py
+
+from django import forms
+class EmpForms(forms.Form):
+	name = forms.charField()
+	salary = forms.IntegerField()
+	
+STEP4: views.py
+
+from django.shortcuts import render
+from requests.api import request
+from WebApp import forms
+
+# Create your views here.
+def EmpView(request):
+    form = forms.EmpForms()
+    if request.method == 'POST':
+        form = forms.EmpForms(request.POST)
+        if form.is_valid():
+            print("Validations are successful")
+            print(form.cleaned_data["name"])
+            print(form.cleaned_data["salary"])
+    MyDict = {'form': form}
+    return render(request, 'MyApp/Welcome.html', context=MyDict)
+	
+STEP5: urls.py
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('welcome/', views.EmpView),
+]
+
+STEP6: Welcome.html
+
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Based Forms</title>
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="{% static 'css/MyFile.css' %}" rel="stylesheet">
+</head>
+<body>
+<h1>Employee sample form</h1>
+<div class="container" align="center">
+<form method="post">
+{{ form.as_p }}
+    {% csrf_token %}
+<input type="submit" value="Employee" class="btn btn-success">
+</form>
+</div>
+</body>
+</html>
+
+NOTE: If we click the submit button, all entered values are displayed in the command prompt
+
+20/07/2019
+
+Example 2: Redirecting to next page when clicking the submit button
+
+STEP1:
+
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thanks for clicking me</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="{% static 'CSS/MyFile.css' %}" rel="stylesheet">
+</head>
+<body>
+<h1 align="center"> Thanks for submitting the form</h1>
+<h1 align="center">BYEEEEEE</h1>
+</body>
+</html>
+
+STEP2: views.py
+
+from django.shortcuts import render
+from WebApp import forms
+from django.http import HttpResponseRedirect
+
+# Create your views here.
+def EmpView(request):
+    form = forms.EmpForms()
+    if request.method == 'POST':
+        form = forms.EmpForms(request.POST)
+        if form.is_valid():
+            print("Validations are successful")
+            print(form.cleaned_data["name"])
+            print(form.cleaned_data["salary"])
+            return HttpResponseRedirect('/Bye')
+    else:
+        form = forms.EmpForms()
+	MyDict = {'form': form}
+	return render(request, 'MyApp/Welcome.html', context=MyDict)
+
+
+def ThankView(request):
+    return render(request, "MyApp/Thanks.html")
+	
+STEP3: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('welcome/', views.EmpView),
+    path('Bye/', views.ThankView),
+]
+
+22/07/2019
+
+What is HTTP
+HTTP is the common language between client and server. HTTP is a generic and stateless protocol which can be used for other purposes as well as using 
+extensions of its request methods, error codes and headers.
+
+Client
+The HTTP client sends a request to the server in the form of a request method.
+
+Server
+The HTTP server responds with a status line, including the messages protocol version and success or error code.
+
+Basic Features
+1. Connectionless
+2. Media independent
+3. Stateless
+
+HTTP request methods
+get, post, put, delete, trace, connect, head, move, lock, profind, options
+
+
+GET
+A GET request retrieves data from a web server by specifying parameters in the URL portion of the request. "get" means read operation.
+
+POST
+The POST method is used when you want to send some data to the server, for example, file update, form data etc. Post means update operation.
+
+How to send GET request(Methods to use GET methods):
+1. Open the web browser and URL
+2. Click the anchor tag or hyperlinks
+3. <form action="target">......</form>
+4. <form action="target" method='GET'></form>
+
+How to send POST request(Methods to use POST methods):
+1. <form method="post">....</form>
+
+HTTP - Responses
+1xx: Informational
+2xx: Success
+3xx: Redirection
+4xx: Client Error
+5xx: Server Error
+
+HTTP-URL encoding or Percent-encoding
+URL encoding is the practice of translating unprintable characters with special meaning within URLs to a representation that is unambiguous and universally 
+accepted by web browsers and servers.
+Unsafe characters must be replaced with a % followed by two hexadecimal digits.
+
+
+Django's In-built Validators
+1. Django provides several inbuilt core validators to perform very common validations
+2. We can use these validators directly and we are not required to implement
+3. Django's inbuilt validators are available in the django.core module
+4. from django.core import validators
+5. To validate max number of characters in the opinion as 40, we have to use inbuilt validators.
+
+NOTE:
+1. Usage of built-in validators is very easy when compared with clean methods
+2. Validations are successfully run if form method="POST"
+
+Example1:
+Follow exactly the same path as previous example with some changes
+CHANGES: 
+1. Updating views.py
+	from django.shortcuts import render
+from WebApp import forms
+from django.http import HttpResponseRedirect
+
+# Create your views here.
+def EmpView(request):
+    form = forms.EmpForms()
+    if request.method == 'POST':
+        form = forms.EmpForms(request.POST)
+        if form.is_valid():
+            print("Validations are successful")
+            print(form.cleaned_data["name"])
+            print(form.cleaned_data["salary"])
+            print(form.cleaned_data['opinion'])
+            return HttpResponseRedirect('/Bye')
+    else:
+        form = forms.EmpForms()
+    MyDict = {'form': form}
+    return render(request, 'MyApp/Register.html', context=MyDict)
+
+
+def ThankView(request):
+    return render(request, "MyApp/Thanks.html")
+	
+2. Updating forms.py
+	from django import forms
+	from django.core import validators
+
+
+	class EmpForms(forms.Form):
+		name = forms.CharField()
+		salary = forms.IntegerField()
+		opinion = forms.harField(widget=forms.Textarea, validators=[validators.MaxLengthValidator(40),validators.MinLengthValidator(10)])
+
+23/07/2019
+
+DJANGO CUSTOM VALIDATIONS
+In Django framework, we can implement different kind of validations. The following are customised validators
+
+from django import forms
+from django.core import validators
+
+
+def begins_with_S(value):
+    if value[0] != "S":
+        raise forms.ValidationError("Sorry. First character must be uppercase S")
+
+
+def alpha(value):
+    if not value.isalpha():
+        raise forms.ValidationError("Every character must be alphabet")
+
+
+class EmpForms(forms.Form):
+    name = forms.CharField(validators=[begins_with_S, alpha])
+    salary = forms.IntegerField()
+    opinion = forms.CharField(widget=forms.Textarea, validators=[validators.MaxLengthValidator(40),validators.MinLengthValidator(10)])
+
+
+VALIDATIONS OF TOTAL FORMS USING CLEAN METHODS
+Whenever we are submitting  the form, Django will call the clean() method present in our form class. In that method, we can implement all validations.
+
+forms.py
+
+from django import forms
+
+class EmpForm(forms.Form):
+	name = forms.CharField()
+	salary = forms.IntegerField()
+	
+	def clean(self):
+		print("Total form validation")
+		total_cleaned_data = super().clean()
+		
+		inputname = total_cleaned_data['name']
+		if len(inputname) < 10:
+			raise forms.ValidationError('Name must be minimum 10 chars')
+			
+		inputsal = total_cleaned_data['salary']
+		if inputsal == 0:
+			raise forms.ValidationError('Salary must be > 0')
+			
+			
+REALTIME VALIDATORS IN DJANGO
+A validator is a callable that takes a value and raises a ValidationError if it doesn't meet some criteria. Validators can be useful for reusing validation
+logic between different types of fields.
+
+Example: A validator that only allows even number
+
+from django.core.exceptions import ValidationError
+from django.utils.translation import gettext_lazy as _
+
+def validate_even(value):
+	if value % 2 == 0:
+		raise ValidationError(_('%(value)s is not an even number'), params = {'value':value},)
+		
+METHOD 2:
+We can add this to a model field via the field's validators argument
+
+from django.db import models
+class MyModel(models.Model):
+	even_field = models.IntegerField(validators = [validate_even])
+	
+We can use the same validator with forms:
+ from django import forms
+ class MyForm(forms.Form):
+	even_field = forms.IntegerField(validators=[validate_even])
+	
+24/07/2019
+
+RegEx Validators
+
+class RegexValidator(regex = None, message = None, code = None)
+
+parameters:
+regex - If not None, overrides regex
+message - If not None, overrides message
+code - If not None, overrides code
+
+Example:
+user = CharField(max_length = 30, required = True, validators = [RegexValidator(regex = '^[a-zA-Z0-9]*$', message = 'UserName must be alphanumeric'
+ code = 'Invalid_Username')])
+
+
+Validating Email ID
+
+def validateEmail(email):
+	from django.core.validators import validate_email
+	from django.core.exceptions import ValidationError
+	try:
+		validate_email(email)
+		return True
+	except ValidationError:
+		return False
+		
+		
+Designing a registration form:
+
+class RegistrationForm(forms.ModelForm):
+	username = forms.Charfield(max_length = 15, label = "UserName")
+	first_name = forms.charField(max_length = 15, label = "FirstName")
+	last_name = forms.charField(max_length = 15, label = "LastName")
+	email = forms.EmailField(required = True)
+	password = forms.CharField(widget = forms.PasswordInput, label = "Password")
+	password1 = forms.CharField(widget = forms.PasswordInput, label = "PasswordConfirmation")
+	
+	
+BOTS:  NLP/PYTHON/NLTK	(Natural Language Processing/ Natural Language Tool Kit)
+Bots are software programs that combine requests, which are typically provided as text, with contextual data, such as geolocation and payment information, to
+appropriately handle the request and respond. Bots are often also callled as 'chatbots', 'assitants' or 'agents'. The term bot comes from robot.
+
+How to prevent Requests from Bot:
+Generally, form requests can be send by the end user. Sometimes, we can write automated programming script which is responsible to fill the form and submit.
+
+The main objectives of Bot requests are:
+1. To create unnecessary heavy traffic to the website, which may crash our application
+2. To spread malware
+3. Automate repetitive task
+
+Being a web developer, it is compulsory to think about Bot requests and we have to prevent these requests.
+
+How to prevent Bot Requests:
+1. In the form, we will place one hidden form field, which is not visible to the end user
+2. Hence there is no chance of providing value to this hidden field
+3. But Bot will send the value for this hidden field also. If hidden field got some value, it means it is the request from Bot and thus prevent that form from
+submission.
+
+Example:
+
+from django import forms
+class EmpForm(forms.Form):
+	name = forms.charField()
+	salary = forms.IntegerField()
+	bot_field = forms.CharField(required=False, widget = forms.HiddenInput)
+	
+	def clean(Self):
+		print("Welcome to robot validations")
+		cdata = super().clean()
+		bhandle = cdata['bot_field']
+		if len(bhandle) > 0:
+			raise Form.ValidationError("You are a bot")
+			
+			
+NOTE- 
+1. Hidden fields are never visible to common user
+2. Send the request to server. Enter required values, Inspect element(F12), Select the Disable hidden field, right click, attributes ==> Add Attribute. Enter
+any value of your choice. Then submit the form. It will display Bot error configured message.
+
+
+Other ways to prevent Bot requests
+1. By using Captcha
+2. By using image recognizers(choosing a certain number of images out of a given image)
+
+25/07/2019
+
+Model Based Form(MBF):
+1. We can create forms based on model, such types of forms are called MBF or Model forms
+2. Model based forms are that we can grab end user input and then we can save that input data in our database
+3. Django provides inbuilt support to develop model based forms easily
+
+How to develop MBF:
+1. While developing form class, instead of inheriting forms.Form class, we have to inherit forms.ModelForm class
+2. We have to write one nested class(Meta class) to specify Model information and required fields.
+
+class EmpForm(forms.ModelForm):
+We declare field declaration if we are performing any custom validations. If we are not defining any custom validations, then here, we are not required to
+specify any field
+
+class Meta:
+#We have to specify Model class name and required fields	
+	model = Emp
+	fields = '__all__'
+
+CASE 1: Instead of all fields, if we want to select only some fields, then we have to specify in tuple format.
+
+class Meta:
+	model = Emp
+	fields = ('field1','field2','field3')
+
+NOTE: In the form, only 3 fields will be considered. If model class contains huge number of fields and we are required to consider very less number of fields
+in the form, then we should use this approach
+
+CASE 2: Instead of all fields, if we want to execute certain fields, then we have to specify in list format
+
+class Meta:
+	model = Emp
+	fields = ['field1', 'field2', 'field3']
+	
+NOTE: In the form, all fields will be considered except field1, field2 and field3. If the model class contains huge number of fields and we want to exclude
+some few fields, then we have to use this approach
+
+
+In MBF, three ways are used to specify information in fields:
+1. All fields(__all__)
+2. Include certain fields(tuple)
+3. Exclude certain fields(list)
+
+
+LIVE PROJECT ON MODEL BASED FORMS/MODEL FORMS
+
+STEP 1: django-admin startproject projectname
+		cd projectname
+		django-admin startapp WebApp
+		
+STEP 2: Do the required settings in the settings.py
+
+STEP 3: models.py
+
+from django.db import models
+# Create your models here.
+
+class Emp(models.Model):
+    EmpId = models.IntegerField()
+    EmpName = models.CharField(max_length=30)
+    EmpSal = models.IntegerField()
+    EmpAdd = models.CharField(max_length=30)
+
+STEP 4: Do requied migrations
+
+		py manage.py makemigrations
+		py manage.py sqlmigrate WebApp 0001
+		py manage.py migrate
+		
+STEP 5: admin.py
+
+from django.contrib import admin
+from WebApp.models import Emp
+# Register your models here.
+
+
+class EmpAdmin(admin.ModelAdmin):
+    list_display = ['id', 'EmpId', 'EmpName', 'EmpSal', 'EmpAdd']
+
+
+admin.site.register(Emp, EmpAdmin)
+
+STEP 6: Creating Super User
+
+		py manage.py createsuperuser
+		Enter user name: username
+		Enter email: email
+		Password: password
+		Re-password: password
+		
+STEP 7: Run the server and send the request to 127.0.0.1:8000/admin/
+		Login and check the created models and tables. Don't enter data manually.
+		Enter data via form
+
+26/07/2019
+
+STEP 8: forms.py
+
+from django import forms
+from WebApp.models import Emp
+
+
+class EmpForm(forms.ModelForm):
+    class Meta:
+        model = Emp
+        fields = '__all__'
+		
+STEP 9: views.py
+
+from django.shortcuts import render
+from WebApp import forms
+from django.http import HttpResponseRedirect
+
+# Create your views here.
+def ThankView(request):
+    return render(request,'MyApp/Thanks.html')
+
+
+def Emp_View(request):
+    form = forms.EmpForm()
+    if request.method == 'POST':
+        form = forms.EmpForm(request.POST)
+        if form.is_valid():
+            form.save(commit=True)
+            return HttpResponseRedirect('/bye')
+    else:
+        form = forms.EmpForm()
+    return render(request, 'MyApp/Registration.html',{'form': form})
+
+STEP 10: Registration.html
+ Registration.html and Thanks.html
+ 
+ STEP 11: Creating CSS File
+ 
+ STEP 12: urls.py
+ 
+ from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('registration/', views.Emp_View),
+    path('bye/', views.ThankView)
+]
+
+27/07/2019
+
+Working with Django advanced templates
+1. Template Inheritance
+2. Template Filters
+
+Template Inheritance
+It is an approach to manage template that resembles object-oriented programming technique. This keeps template management minimal and efficient. It allows 
+you to build a base skeleton template that contains all the common elements of your site and defines blocks that child templates can override.
+
+
+base.html
+It defines a simple HTML skeleton document that you might use for a simple two-column page. It is the job of 'child' template to fill the empty block with
+content.
+
+block
+It defines a block that can be overriden by child template. All the block tag does is to tell the template engine that a child template may override those 
+portions of the template.
+
+Syntax:
+{% child_block %}
+
+{% end_block %}
+
+NOTE: child_block name is any name we can write as per the business requirement
+
+Example:
+{% block_content %}
+{% for entry in blog_entries %}
+	<h2>{{ entry.title }}</h2>
+	<p>{{ entry.body }}</p>
+{% endfor %}
+{% endblock %}
+
+How template inheritance works
+How template inheritance works.png
+
+
+child.html
+The extends tag is the key here. It tells the template engine that this template extends another template. When the template system evaluates this template,
+first it locates the parent "base.html"
+
+extends
+It signals that this template extends a parent template
+
+Syntax
+{% extends 'AppName/base.html' %}
+{% block child_block %}
+Child specific code is written here
+{% endblock %}
+
+Example:
+<!DOCTYPE html>
+{% extends 'MyApp/base.html' %}
+{% block body_block %}
+<h1>Welcome to me</h1>
+{% endblock %}
+
+
+Live Example on Template Inheritance
+
+STEP 1: 
+django-admin startproject template_inheritance
+cd template_inheritance
+django-admin startapp WebApp
+
+STEP 2:
+Complete the necessary settings and creation of extra directories
+
+STEP 3:
+In templates folder ==> base.html, home.html, courses.html, news.html, sports.html
+
+STEP 4: base.html
+
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template Inheritance</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel = stylesheet href={% static 'CSS/MyFile.css' %}>
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Django</a>
+    </div>
+
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/courses/">Courses</a></li>
+		<li><a href="/news/">News</a></li>
+		<li><a href="/sports">Sports</a></li>
+	  </ul>
+  </div>
+</nav>
+{% block body_block %}
+{% endblock %}
+</body>
+</html>
+
+
+STEP 5: Completing remaining web pages
+
+STEP 6: views.py
+
+from django.shortcuts import render
+
+# Create your views here.
+def home(request):
+    return render(request,'MyApp/home.html')
+
+def courses(request):
+    return render(request,'MyApp/courses.html')
+
+def news(request):
+    return render(request, 'MyApp/news.html')
+
+def sports(request):
+    return render(request, 'MyApp/sports.html')
+	
+STEP 7: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path("home/", views.home),
+    path('courses/', views.courses),
+    path('news/', views.news),
+    path('sports/', views.sports),
+]
+
+
+29/07/2019
+
+DJANGO TEMPLATE FILTERS
+Django-filter is a generic , reusable application to alleviate(relief) writing some of the more mundane bits of view code. Specifically, it allows users to
+filter down a queryset based on a model's field.
+
+Syntax:
+{{value|filtername:"argument"}} Filter may or may not take arguments i.e. arguments are optional
+
+Example:
+{{msg|lower}}==>msg will be displayed in lower case
+{{msg|add:"NIT"}}==>"NIT" will be added to msg
+
+Example:
+{{name|lower}}
+{{subject|upper}}
+{{experience|title}}
+
+Example:
+{{msg|title}}
+{{my_date|date:"Y-m-d"}}
+
+
+How to use template filters:
+The following example describes the importance of the template filters
+
+def display_view(request):
+	name = "Data Science"
+	subject = "Machine Learning"
+	dept = "Software"
+	date = requireddate
+	my_dict = {'name':name, 'subject':subject, 'dept':dept, 'date':date}
+	return render(request, "MyApp/Welcome.html", context = my_dict)
+	
+In the above example data is from database. That data is displayed in different views and styles . For this purpose, Template filters are best solution.
+
+Example: template_filters
+
+STEP 1: Complete the creation of project along with settings.py files, configure database and static and templates
+
+STEP 2: models.py
+
+from django.db import models
+
+# Create your models here.
+class FilterModel(models.Model):
+    name = models.CharField(max_length=30)
+    subject = models.CharField(max_length=30)
+    dept = models.CharField(max_length=30)
+    date=models.DateField()
+	
+STEP 3: run migration
+
+py manage.py makemigrations
+py manage.py sqlmigrate WebApp 0001
+py manage.py migrate
+
+STEP 4: admin.py
+
+from django.contrib import admin
+from WebApp.models import FilterModel
+
+# Register your models here.
+class FilterModelAdmin(admin.ModelAdmin):
+    list_display = ['name', 'subject', 'dept', 'date']
+    
+    
+admin.site.register(FilterModel, FilterModelAdmin)
+
+NOTE: Enter required data manually to display in different formats
+
+STEP 5: Create Super User
+
+py manage.py createsuperuser
+
+STEP 6: views.py
+
+from django.shortcuts import render
+from WebApp.models import FilterModel
+# Create your views here.
+
+def DataView(request):
+    datalist = FilterModel.objects.all()
+    return render(request, 'MyApp/Welcome.html', {'datalist':datalist})
+	
+STEP 7: Welcome.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for item in datalist %}
+<ul>
+    <li>{{ item.name|title }}</li>
+    <li>{{ item.subject|upper }}</li>
+    <li>{{ item.dept|lower }}</li>
+    <li>{{ item.date }}</li>
+</ul><hr>
+{% endfor %}
+</body>
+</html>
+
+STEP 8: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('dataview/', views.DataView),
+]
+
+30/7/2019
+Advantages Of template inheritance
+
+1. It promotes code reusability
+2. It improves readability and reduces time
+3. It provides same look and feel for complete web application
+
+NOTE- Based on our business requirement, we can extend any number of base templates. Multiple inheritance is applicable for templates.
+
+Other Filter Names:
+<li>{{item.name|add:"Pvt Ltd"}}</li>
+<li>{{item.subject|truncatechars:3}}</li>
+<li>{{item.date|timesince}}</li>
+<li>{{item.date|date:"d-m-Y"}}</li>
+
+
+DJANGO CUSTOMISED TEMPLATE FILTERS(CTF)
+Based on our client business requirements, we can create CTF
+
+STEP 1: Create a folder 'templatetags' inside our WebApp folder
+
+STEP 2: Create a special file named __init__.py inside templatetags folder to treat as a package
+
+STEP 3: Create a python file inside templatetags folder to define our own filters 
+cust_filters.py
+
+STEP 4: cust_filters.py
+
+from django import template
+register = template.Library()
+
+def truncate_(value, n=5):
+	#Custom Filter
+	result = value[0:n]
+	return result
+register.filter('trun', truncate_)
+
+STEP 5: Welcome.html
+Inside template file we have to load this filter filer
+
+<!DOCTYPE html>
+<html lang = en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Title</title>
+</head>
+<body>
+{% load cust_filters %}
+{% for item in datalist %}
+<ul>
+	<li>{{ item.name|trun:5 }}</li>
+	<li>{{ item.subject|trun:2 }}</li>
+	<li>{{ item.dept|lower }}</li>
+	<li>{{ item.date }}</li>
+</ul><hr>
+{% endfor %}
+</body>
+</html>
+
+STEP 6: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('dataview/', views.DataView),
+]
+
+
+31/07/2019
+Session Management in Django
+Session simply means a particular interval of time. Session tracking is a way to maintain state(data) of a user. It is also known as Session tracking. HTTP 
+protocol is stateless. Therefore we need to maintain session using session tracking technique.
+1. Cookies
+2. Session API
+
+Session management by using cookies
+Cookie is a very small amount of information created bby server and maintained by client.
+OR
+Cookies are usually small text files. Cookies are intended to help you access a site faster and more efficiently.
+
+Why Cookie
+Cookies are created when you use your browser to visit a website that uses cookies to keep track of your movement within the site. It was invented by Netscape.
+
+There are 2 types of cookies
+1. Session Cookies
+2. Persistent Cookies
+
+
+SESSION COOKIES
+These are created temporarily in your browser's subfolder while you are visiting a website. Once you leave the site, the session cookie is deleted.
+
+PERSISTENT COOKIES
+These files remain in your browser's subfolder and are activated again once you visit the website that created that particular cookie. You cannot store binary
+data in a cookie. Cookies can be a maximum of 4kb in size each.
+
+FEATURES OF COOKIES
+1. Cookies do not require any server resource since they are stored on the client
+2. Cookies are easy to implement
+
+LIMITATIONS OF COOKIES
+1. User can delete cookies
+2. Cookies can be disabled on user browsers
+3. No security for sensitive data
+
+Cookie Resources:
+www.allaboutcookies.org
+
+Testing our browser's support for cookies
+We have too use the following 3 methods on the request object
+1. set_test_cookie(): Sets a test cookie to determine whether the user's browser supports cookies
+2. test_cookie_worked(): Returns either true or false, depending on whether the user's browser accepted the test cookie
+3. delete_test_cookie(): Use this to clean up the generated cookie
+
+Example 1: Django Cookies
+STEP 1: Create the project and do the required settings in settings.py folder
+
+STEP 2: py manage.py makemigrations
+
+STEP 3: py manage.py migrate
+
+NOTE: If we are not migrating, then django displays OperationalError, no such table: django_session
+
+STEP 4: views.py
+
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+
+def test_cookie(request):
+    request.session.set_test_cookie()
+    return HttpResponse("<h1> Cookies are Testing </h1>")
+
+def check_cookie(request):
+    if request.session.test_cookie_worked():
+        print("Cookies are working ")
+        request.session.delete_test_cookie()
+        return HttpResponse("<h1>Cookie are deleted</h1>")
+		
+STEP 5: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('test/', views.test_cookie),
+    path('check/', views.check_cookie)
+]
+
+Django has more built-in methods to set, get and delete cookies
+1. set_cookie() method is used to set a cookie
+Syntax:
+response.set_cookie(cname, value)
+
+Example:
+response.set_cookie('hit', newhit) ==> Temporary Cookie
+response.set_cookie('hit', newhit,max_age=120) ==> Persistent cookie (in seconds)
+
+To set a cookie for 5 months ==> 5*30*24*60*60. We can pass this calculated value as an argument
+
+2. get() or get_cookie(): It is used to get the cookie
+Syntax:
+request.GET['cname']
+
+3. request.COOKIES.get('count'): Array can also be used to get cookie value
+Syntax:
+request.COOKIES.get(cname,value)
+
+4. delete_cookie(): To delete cookie(s)
+Syntax:
+response.delete_cookie('cname')
+
+Example 2:
+Update the previous views.py and urls.py file
+
+Step 1: views.py
+
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+
+
+def set_cookie(request):
+    response = HttpResponse("<h1>Cookies set</h1>")
+    response.set_cookie('user', 'Gaurav')
+    return response
+
+
+def get_cookie(request):
+    user = request.COOKIES['user']
+    return HttpResponse(user + "<h1> Cookie are extracted<h1>")
+
+
+def delete_cookie(request):
+    response = HttpResponse('<h1>Cookies deleted</h1>')
+    response.delete_cookie('user')
+    return response
+
+Step 2: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('set/', views.set_cookie),
+    path('get/', views.get_cookie),
+    path('del/', views.delete_cookie),
+]
+
+02/08/2019
+Example 3:
+Step 1: Create a project called cookie_advanced and do the required settings
+
+Step 2: Create hits.html file
+
+Step 3: py manage.py makemigrations
+
+Step 4: py manage.py migrate
+
+Step 5: views.py
+
+from django.shortcuts import render
+#Create your views here
+
+def hits_view(request):
+	hit = request.COOKIES.get('hit',0)
+	newhit = int(hit) + 1
+	response = render(request, 'MyApp/hits.html', {'hit': newhit})
+	response.set_cookie('hit', newhit)
+	return response
+	
+Step 6: hits.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Cookies</title>
+    <style type="text/css">
+        span{
+            font-size: 300px;font-family: Candara;color: royalblue;
+        }
+    </style>
+</head>
+<body>
+<h1>WebPage hits are:<span>{{ hit }}</span></h1>
+</body>
+</html>
+
+Step 7: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('test/', views.hits_view),
+]
+
+03/08/2019
+DJANGO SESSIONS FRAMEWORK
+Session management by using Session API:
+A session is a mechanism to store information on the server side during the interaction with the web application. In Django, by default, session stores in the 
+database and also allows fire-based and cache-based sessions.
+
+Put 'django.contrib.sessions.middleware.SessionMiddleware' in MIDDLEWARE and 'django.contrib.sessions' in INSTALLED_APPS of settings.py file. To set and get 
+the sessions in views, we can use request.session and can set multiple times too.
+
+NOTE- Session information will be stored in one of the following possibilities
+1. Inside a file
+2. Inside a databse
+3. Inside cache
+
+The straight forward approach is to use django.contrib.sessions application to store session information in a Django Model/Database. The model name is-
+django.contrib.sessions.model.Session
+
+
+Useful methods for session management:
+1. request.session['key'] = value ==> To add data to the session
+2. value = request.session['key'] ==> To get data from the session
+3. request.session.set_expiry(seconds) ==> Sets the expiry time for the session(default 2 weeks)
+4. request.session.get_expiry_age() ==> Returns the expiry age in seconds
+5. request.session.get_expiry_date() ==> Returns the date on which this session will expire
+
+Example: Session Framework
+
+Step 1: Create the project name django_session and complete the settings
+
+Step 2: hits.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Cookies</title>
+    <style type="text/css">
+        span{
+            font-size: 300px;font-family: Candara;color: royalblue;
+        }
+      </style>
+</head>
+<body>
+<h1>WebPage hits are:<span>{{ hit }}</span></h1>
+</body>
+</html>
+
+Step 3: py manage.py makemigrations
+
+Step 4: py manage.py migrate
+
+Step 5: views.py
+
+from django.shortcuts import render
+
+# Create your views here.
+def page_hit(request):
+    hit = request.session.get('hit', 0)
+    newhit = hit + 1
+    request.session['hit'] = newhit
+	print("Session expired age: ", request.session.get_expiry_age())
+	print("Session expired date: ", request.session.get_expiry_date())
+    return render(request, 'MyApp/hits.html',{'hit': newhit})
+	
+Step 6: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('test/', views.page_hit)
+
+]
+
+
+How to delete session data:
+Syntax:
+del request.session[sessionkey]
+
+Example:
+for key in request.session.keys():
+	del request.session[key]
+	
+For this to work, we need to add some text in settings.py
+SESSION_SAVE_EVERY_REQUEST = True
+OR
+In views.py
+request.session.modified = True
+
+
+Browser length sessions and Persistent Sessions
+If the session information are stored inside browsers cache, sessions are called browser length sessions.
+If the session information are stored persistently inside file/database/cache, sessions are called Persistent session.
+
+
+User Authentication and Authorisation
+Django provides an authentication and authorisation('permission') system, built on top of the session framework. The authentication system is very flexible,
+and you can build up your URLs, forms, views and templates from scratch if you like.
+
+Authentication - The process of validating user is called authentication
+Authorisation - The process of validating access permissions of user is called authorisation
+
+Syntax 1:
+INSTALLED_APPS = [
+	'django.contrib.auth',	# Core authentication framework and its default models
+	'django.contrib.contenttypes', # Django content type system(allows permission to be associated with models)
+]
+
+Syntax 2:
+MIDDLEWARE = [
+	'django.contrib.auth.middleware.AuthenticationMiddleware',		# Manages session across requests
+	'django.contrib.auth.middleware.AuthenticationMiddleware',		# Associates users with requests using sessions
+]
+
+04/08/2019
+The auth system consists of-
+1. Users
+2. Permissions
+3. Group
+4. A configurable password hashing system
+5. Forms and view tools for logging in users or restricting content
+6. A pluggable backend system
+
+NOTE -
+1. PBKDF1 and PBKDF2(Password Based Key Derivation Function 1 and 2)
+2. bcrypt is a password hashing function
+3. Argon2 is a key derivation function
+
+The security of algorithm is of the following order-
+argon2>bcrypt>PBKDF2
+
+pip install bcrypt --user
+pip install django[argon2] --user
+
+In settings.py, we have to configure password hashers as follows-
+PASSWORD_HASHERS = [
+	'django.contrib.auth.hashers.Argon2PasswordHasher',
+	'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
+	'django.contrib.auth.hashers.BCryptPasswordHasher',
+	'django.contrib.auth.hashers.PBKDF2PasswordHasher',
+	'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
+]
+
+Example: 
+
+Step 1: Create a project name authentication and do the necessary settings 
+
+Step 2: Configure password hashers in settings.py
+
+PASSWORD_HASHERS = [
+    'django.contrib.auth.hashers.Argon2PasswordHasher',
+    'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
+    'django.contrib.auth.hashers.BCryptPasswordHasher',
+    'django.contrib.auth.hashers.PBKDF2PasswordHasher',
+    'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
+]
+
+
+Step 3: py manage.py makemigrations
+
+Step 4: py manage.py migrate
+
+Step 5: base.html
+
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template Inheritance</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel = stylesheet href={% static 'CSS/MyFile.css' %}>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">CORE BANKING</a>
+    </div>
+
+      <ul class="nav navbar-nav">
+        <li> <a href="customer/">Customer</a></li>
+	  </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="/register">Signup</a> </li>
+          <li><a href="/accounts/login">Login</a> </li>
+          <li><a href="/accounts/logout">Logout</a> </li>
+      </ul>
+  </div>
+</nav>
+{% block body_block %}
+{% endblock %}
+</body>
+</html>
+
+Step 6: home.html
+
+<!DOCTYPE html>
+{% extends 'MyApp/base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+{% block body_block %}
+<body>
+<div class="jumbotron">
+    <div class = "container">
+        <h1>
+            Welcome to CORE Banking
+        </h1>
+        <h2>
+            Bank Rules
+        </h2>
+        <ul>
+            <li>
+                Term1: You should login 1 time per Week
+            </li>
+            <li>
+                Term2: You should login 1 time per Month
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+{% endblock %}
+</html>
+
+Step 7: customer.html
+
+<!DOCTYPE html>
+{% extends 'MyApp/base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+{% block body_block %}
+<body>
+<div class="jumbotron">
+    <div class = "container">
+        <h1>
+            Welcome to CORE Banking Customer
+        </h1>
+        <h2>
+            Bank Rules
+        </h2>
+        <ul>
+            <li>
+                Term1: You should login 1 time per Week
+            </li>
+            <li>
+                Term2: You should login 1 time per Month
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+{% endblock %}
+</html>
+
+Step 8: views.py
+
+from django.shortcuts import render
+
+# Create your views here.
+
+def my_home(request):
+    return render(request, 'MyApp/home.html')
+
+def my_customer(request):
+    return render(request, 'MyApp/customer.html')
+
+Step 9: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('',views.my_home),
+    path('customer/',views.my_customer)
+]
+ 
+ Step 10: 
+ py manage.py createsuperuser
+ 
+After successful creation of the super user login into admin through
+http://127.0.0.1:8000/admin/
+Find "Users" under Authentication and Authorization.
+Click on Adduser,Enter the required details and click on save,it show
+cross symbol means normal user.
+STAFF STATUS Indicates Super User.
+Logout from super-user,for perfect server response..!!
+
+Step 11: views.py
+
+from django.contrib.auth.decorators import login_required
+
+@login_required
+def my_customer(request):
+    return render(request, 'MyApp/customer.html')
+
+
+Step 12: 
+If you click on customer link, you will get an error as django auth generates the following URL:
+http://127.0.0.1:8000/accounts/login/?next=/cust/
+
+Step 13: urls.py
+Add the following
+
+from django.urls import path,include
+path('accounts/', include('django.contrib.auth.urls')),
+
+It displays the following error-
+TemplateDoesNotExist at /accounts/login/
+
+Step 14:
+Goto templates folder, create a directory named registration ==> Create an html file 'login.html'
+
+Step 15: base.html
+Add the following detail
+<li><a href="/accounts/login/">Login</a></li>
+
+Entering the credentials will generate the following error messages-
+Page not found(404)
+Request Method:		GET
+Request URL:		http://127.0.0.1:8000/accounts/profile/
+
+Step 16:
+To avoid the error, go to settings.py file. Under STATIC_URL, configure the following address
+LOGIN_REDIRECT_URL = "/" ==> It redirects to home page
+
+Step 17: logout.html
+Go to base.html
+<li><a href="/accounts/logout">Logout</a></li>
+By default, it redirects to django administration logout page
+
+Step 18:
+To avoid the above message, go to settings.py file, configure the following address and edit the code below the "LOGIN_REDIRECT_URL = "/""
+LOGOUT_REDIRECT_URL = "/"
+
+Step 19: logout.html
+
+<!DOCTYPE html>
+{% extends 'MyApp/base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+{% block body_block %}
+<body>
+<div class="jumbotron">
+    <div class = "container">
+        <h1>
+            Thanks for visiting banking website
+        </h1>
+        <h2>
+            To login again, click
+        </h2>
+        <a href="/accounts/login" class="btn btn-success">Login</a>
+    </div>
+</div>
+</body>
+{% endblock %}
+</html>
+
+Step 20: views.py
+Add the following
+
+def logout(request):
+    return render(request,'MyApp/logout.html')
+
+Step 21: urls.py
+ Add the following
+
+path('logout/', views.logout),
+
+Step 22: settings.py
+Edit the LOGOUT_REDIRECT_URL
+
+LOGOUT_REDIRECT_URL = "/logout"
+
+06/08/2019
+Step 23: Signup Form- Form based on model
+
+Goto WebApp create forms.py file
+
+from django import forms
+from django.contrib.auth.models import User
+class SignUpForm(forms.ModelForm):
+    class Meta:
+        model = User
+        fields = ['username', 'password', 'email', 'first_name', 'last_name']
+		
+Step 24: views.py
+
+from WebApp.forms import SignUpForm
+
+def registration(request):
+    form = SignUpForm()
+    return render(request, 'MyApp/registration.html', {'form': form})
+	
+Step 25: registration.html
+
+<!DOCTYPE html>
+{% extends 'MyApp/base.html' %}
+    {% block body_block %}
+        <div class="container">
+            <h1 align="center">Registration here </h1>
+            <form method="post">
+            {{ form.as_p }}
+                {% csrf_token %}
+            <input type="submit" value="Register" class="btn btn-success">
+            </form>
+        </div>
+    {% endblock %}
+	
+Step 26: urls.py
+
+path('register/', views.registration)
+
+Step 27: base.html
+
+<li><a href="/register">Signup</a> </li>
+
+Step 28: updating views.py
+
+from django.http import HttpResponseRedirect
+
+def registration(request):
+    form = SignUpForm()
+    if request.method == "Post":
+        form = SignUpForm(request.POST)
+        form.save(commit=True)
+        return HttpResponseRedirect('/accounts/login')
+    return render(request, 'MyApp/registration.html', {'form': form})
+	
+NOTE - Entering password in the normal string method results in generation of an error in django admin field called 'Invalid password format or unknown 
+hashing algorithm.' To avoid this error - views.py
+
+def registration_view(request):
+    form = SignUpForm()
+    if request.method == 'POST':
+        form = SignUpForm(request.POST)
+        user = form.save(commit=True)
+        user.set_password(user.password)
+        user.save()
+        return HttpResponseRedirect('/accounts/login')
+    return render(request, 'MyApp/registration.html', {'form': form})
+
+
+NOTE - If you want to add password field, password = forms.CharField(widget = forms.PasswordInput)
+
+07/08/2019
+Django File Upload
+In realtime project, we can do file upload in django effectively through Django File Upload.
+
+1. Basic Concepts
+Sending a file using POST method
+Set encode type ==> enctype = "multipart/form-data"
+Files are uploaded to request FILES
+Files are dictionary like object
+Each file is an UploadedFile Instance
+
+For reference:
+https://docs.djangoproject.com/en/2.2/topics/http/file-uploads/
+
+2. Configuration:settings.py
+(a) Media Root
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+
+ (b) Media URL
+MEDIA_URL = '/media'
+
+(c) Saving media files on local machine @ urls.py
+from django.conf import settings
+from django.conf.urls.static import static
+
+if settings.DEBUG:
+	urlpatterns += static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)
+	urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+	
+3. Handling uploaded files
+(a) Filestorage API-FileSystemStorage
+(b) Model form fields FileField or ImageField
+
+
+Example: Simple File Upload
+
+Step 1: Create a project called simple_file_upload and configure settings
+
+Step 2: simple_upload.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Working With Django File Upload</title>
+</head>
+<body>
+<form method="post" action="" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="myfile"><br>
+    <button type="submit">Upload</button>
+</form>
+{% if uploaded_file_url %}
+<p>File Uploaded at:<a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a> </p>
+{% endif %}
+</body>
+</html>
+
+Step 3: views.py
+
+from django.shortcuts import render
+from django.core.files.storage import FileSystemStorage
+# Create your views here.
+
+def simple_upload(request):
+    if request.method == 'POST' and request.FILES['myfile']:
+        myfile = request.FILES['myfile']
+        print(myfile.name)
+        print(myfile.size)
+        fs = FileSystemStorage()
+        filename = fs.save(myfile.name, myfile)
+        uploaded_file_url = fs.url(filename)
+        return render(request, 'MyApp/simple_upload.html', {'uploaded_file_url': uploaded_file_url})
+    return render(request,'MyApp/simple_upload.html')
+	
+Step 4: urls.py 
+
+from django.contrib import admin
+from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('upload/', views.simple_upload),
+]
+
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+08/08/2019
+OUTPUTTING CSV WITH DJANGO
+Django uses Python's built-in CSV library to create Dynamic CSV(Comma separated value) file. We can use this library in our project's view file.
+
+Step 1: Create a project named CSVProject and do the required settings
+
+Step 2: views.py
+
+from django.shortcuts import render
+from django.http import HttpResponse
+import csv
+# Create your views here.
+
+def getfile(request):
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = 'attachment;filename = "MyFile.csv"'
+    writer = csv.writer(response)
+    writer.writerow(['1001', 'Gaurav', 'Gwari'])
+    writer.writerow(['1002', 'Kushagra', 'Gwari'])
+    writer.writerow(['1001', 'Yoyo', 'Honey'])
+    return response
+	
+Explanation:
+The response gets a special MIME type text/csv. This tells browsers that the document is a CSV file. The response gets an additional Content-Disposition
+header, which contains the name of the CSV file.
+Hooking into the CSV-generation API is easy: Just pass response 
+
+Step 3: urls.py
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('csv/', views.getfile),
+]
+
+
+OUTPUTTING PDF WITH DJANGO 
+This document explains how to output PDF files dynamically using Django views. This is made possible by the excellent, open-source ReportLab Python PDF library.
+
+pip install reportlab --user
+
+Step 1: Create a project named PDFProject and do the required settings
+
+Step 2: views.py
+
+from django.shortcuts import render
+from reportlab.pdfgen import canvas
+from django.http import HttpResponse
+
+# Create your views here.
+def getpdf(request):
+    response = HttpResponse(content_type='application/pdf')
+    response['Content-Disposition'] = 'attachment; filename = "MyFile.pdf"'
+    p = canvas.Canvas(response)
+    p.setFont("Times-Roman", 55)
+    p.drawString(100, 700, "Yo Whats Up Biaaatcch ")
+    p.showPage()
+    p.save()
+    return response
+	
+Search in google for standard fonts for pdf
+
+Step 3: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('pdf/', views.getpdf),
+]
+
+10/08/2019
+CRUD Operations in Django
+CRUD is the abbreviation used for four major operations performed on a datacenter. These operations usually include the following-
+1. C => Create(Insert Query)
+2. R => Retrieve/Read(Select Query)
+3. U => Update(Update Query)
+4. D => Delete(Delete Query)
+
+CRUD			HTTPS Verbs
+
+Create<--------->POST
+Read<----------->GET
+Update<--------->PUT
+Delete<--------->DELETE
+
+Every programmer has to deal with these operations at some point. For example, you are developing a social networking website and you need a way to provide
+the users a way to create their account and read their profile related data. What happens if they forget their username or password? So, you surely need to
+let them update it.
+
+Create(Insert Query)
+Step 1: Create a project name Crud and do the required settings
+
+Step 2: Configure WebApp in settings.py file
+Configure media resources
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/media/'
+
+Configure template resources
+
+Step 3: models.py
+
+from django.db import models
+from django.urls import reverse
+
+# Create your models here.
+class Company(models.Model):
+    company_name = models.CharField(max_length=40)
+    company_logo = models.FileField(null='True', blank='True')
+    company_city = models.CharField(max_length=40)
+    
+Step 4: py manage.py makemigrations
+
+Step 5 py manage.py migrate
+
+Step 6: Create Superuser
+
+py manage.py createsuperuser
+After running the server, in the django admin dashboard, we cannot see any table related to Company. So, we need to do the following
+
+Step 7: admin.py
+
+from django.contrib import admin
+from WebApp.models import Company
+# Register your models here.
+
+admin.site.register(Company)
+
+Step 8: forms.py
+
+from .models import Company
+from django import forms
+
+
+class NewForm(forms.ModelForm):
+    class Meta:
+        model = Company
+        fields = [
+            'company_name',
+            'company_logo',
+            'company_city',
+        ]
+		
+Step 9: home.html
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="col-md-offset-3 col-md-6">
+    <div class="page-header">
+        <h1><a href="{% url 'home' %}" class="top-menu">Companies List</a> </h1>
+    </div>
+    <a href="/create/" class="top-menu"><span class="glyphicon glyphicon-plus"></span>Add New Picture </a><br>
+    <ul>
+        {% for obj in orglist %}
+        <a href="{{ obj.get_absolute_url }}"><h3>{{ obj.id }}.{{ obj.company_name }}</h3>
+        {% if obj.company_logo %} <img src="{{ obj.company_logo.url }}"/>{% endif %}
+        </a>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>
+
+Step 10: create.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CREATE DATA</title>
+</head>
+<body>
+<form method="POST" action="" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Save">
+</form>
+</body>
+</html>
+
+Step 11: views.py
+
+from django.shortcuts import render, get_object_or_404 # By default is automatically displays
+from django.http import HttpResponse, HttpResponseRedirect
+from .models import Company
+from .forms import NewForm
+
+# Create your views here.
+
+def home(request):
+    orglist = Company.objects.all()
+    return render(request, 'MyApp/home.html', {'orglist': orglist})
+
+def org_create(request):
+    form = NewForm(request.POST or None, request.FILES or None)
+    if form.is_valid():
+        instance = form.save()
+        instance.save()
+        return HttpResponseRedirect('/')
+    context = {'form': form}
+    return render(request, "MyApp/create.html", context)
+	
+Step 12: urls.py
+
+from django.contrib import admin
+from django.urls import path, include
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('accounts/', include('django.contrib.auth.urls')),
+    path('', views.my_home),
+    path('logout/', views.logout),
+    path('customer/', views.my_customer),
+    path('register/', views.registration_view),
+]
+
+
+Read/Retrieve Query
+
+Step 1: read.html
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="col-md-offset-3 col-md-6">
+    <div class="page-header">
+        <h1><a href="{% url 'home' %}" class="top-menu">Companies List</a> </h1>
+    </div>
+        <h3><u>{{instance.company_name}}details</u></h3>
+		<h4>company id:{{ instance.id }}</h4><br>
+		<h4>company image:<img src = "{{ instance.company_logo.url }}"/></h4><br>
+		<h4>company city:{{ instance.company_city }}</h4><br>
+</div>
+</body>
+</html>
+
+Step 2: views.py
+
+def org_read(request, id=None):
+    instance = get_object_or_404(Company, id=id)
+    context = {'instance': instance}
+    return render(request, "MyApp/read.html", context)
+	
+Step 3: urls.py
+
+    path('read/<int:id>', views.org_read, name='read'),
+
+
+Update Query
+
+Step 1: models.py
+
+from django.db import models
+from django.urls import reverse
+
+# Create your models here.
+
+
+class Company(models.Model):
+    company_name = models.CharField(max_length=40)
+    company_logo = models.FileField(null='True', blank='True')
+    company_city = models.CharField(max_length=40)
+
+    def __str__(self):
+        return self.company_name
+
+    def get_absolute_url(self):
+        return reverse('read', kwargs={"id": self.id})
+A__STR__()is a special method which tells python how to display an object in human redable form
+
+Step 2: home.html
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="col-md-offset-3 col-md-6">
+    <div class="page-header">
+        <h1><a href="{% url 'home' %}" class="top-menu">Companies List</a> </h1>
+    </div>
+    <a href="/create/" class="top-menu"><span class="glyphicon glyphicon-plus"></span>Add New Picture </a><br>
+    <ul>
+        {% for obj in orglist %}
+        <a href="{{ obj.get_absolute_url }}"><h3>{{ obj.id }}.{{ obj.company_name }}</h3>
+        {% if obj.company_logo %} <img src="{{ obj.company_logo.url }}"/>{% endif %}
+        </a>
+            <a href="{% url 'update' id = obj.id %} ">Update</a>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>
+
+Step 3: update.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CREATE DATA</title>
+</head>
+<body>
+<form method="POST" action="" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Save">
+</form>
+</body>
+</html>
+
+Step 4: views.py
+
+def org_update(request, id=None):
+    instance = get_object_or_404(Company, id=id)
+    form = NewForm(request.POST or None, request.FILES or None, instance=instance)
+    if form.is_valid():
+        instance = form.save()
+        instance.save()
+        return HttpResponseRedirect(instance.get_absolute_url())
+    context = {'instance': instance, 'form': form}
+    return render(request, "MyApp/update.html", context)
+
+Step 5: urls.py
+
+    path('update/<int:id>', views.org_update, name='update'),
+	
+	
+Delete Query
+
+Step 1: delete.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href=""
+</head>
+<body>
+<div class="col-md-offset-3 col-md-6">
+    Data deleted successfully
+    Click here to see<a href="{% url 'home' %}"><h3>Company List</h3></a>
+</div>
+</body>
+</html>
+
+Step 2: home.html
+
+<a href="{% url 'delete' id = obj.id %}">Delete</a>
+
+Step 3: views.py 
+
+def org_delete(request, id=None):
+    instance = get_object_or_404(Company, id=id)
+    instance.delete()
+    return render(request, "MyApp/delete.html")
+
+Step 4: urls.py
+
+    path('delete/<int:id>', views.org_delete, name='delete'),
+
+
+
+Relationships in Django Model
+Django models operate by default on relational database systems(RDBMS) and thus they also support relationships amongst one another. In the simplest terms, 
+database relationships are used to associate records on the basis of a key or id, resulting in improved data maintenance, query performance and less duplicate
+data, among other things.
+
+Django model supports the same three relationships supported by relational database systems:
+1. One to One relationship
+2. Many to One relationship
+3. Many to Many relationship
+
+One to One relationships in Django models
+A one to one relationship implies that one record is associated with another record. If you are familiar with object-oriented programming, a one to one 
+relationship in RDBMS is similar to object-oriented inheritance.
+
+Model records can have a one to one relationship to state model records, where state has a specific capital city. To define one to one relationship in Django
+models, you use the OneToOneField data type.
+
+NOTE - A record in one table is related to one record in another table
+
+Example - One to One relation
+
+Step 1: Create a project named OneToOneRelations and do the required settings
+
+Step 2: models.py
+
+from django.db import models
+
+# Create your models here.
+
+
+class State(models.Model):
+    sname = models.CharField(max_length=255)
+    
+    def __str__(self):
+        return self.sname
+    
+    
+class CapitalCity(models.Model):
+    cname = models.CharField(max_length=255, primary_key=True)
+    state = models.OneToOneField(State, on_delete=models.CASCADE,)
+    
+    def __str__(self):
+        return self.cname
+
+Step 3: py manage.py makemigrations
+		py manage.py migrate
+		
+Step 4: py manage.py createsuperuser
+
+Step 5: admin.py
+
+from django.contrib import admin
+from WebApp.models import State,CapitalCity
+# Register your models here.
+
+admin.site.register(State)
+admin.site.register(CapitalCity)
+
+NOTE- Add State first and then CapitalCity
+
+Step 6: StateCapital.html
+
+Step 7: views.py
+
+from django.shortcuts import render
+from .models import State
+# Create your views here.
+
+def statelist(request):
+    items = State.objects.all()
+    return render(request,'MyApp/StateCapital.html', {'items': items})
+
+Step 8: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('oto/', views.statelist),
+]
+
+
+Class Based Views(CBV)
+CBV provides provides an alternative way to implement views as Python objects instead of functions. They do not replace function-based-views. Organisation of
+code related to specific HTTP methods(GET, POST, etc.) can be addressed by separate methods instead of conditional branching. CBV was introduced in Django 1.3
+to implement Generic views.
+
+Mixins are a form of multiple inheritance where behaviours and attributes of multiple parent class can be combined.
+
+Example:
+If you create a view extending the django.views.View base class, the dispatch() method will handle the HTTP method logic. If the request is POST, it will 
+execute the post() method inside the view. If the request is a GET, it will execute the get() method inside the view.
+
+Example:
+Step 1: Create a project named ClassProject and do the required settings
+
+Step 2: views.py
+
+from django.views.generic import View
+from django.http import HttpResponse
+# Create your views here
+
+
+class CBV(View):
+    def get(self, request):
+        return HttpResponse("<h1 style='color:red'> Welcome to class based Views</h1>")
+    
+    def post(self, request):
+        return HttpResponse("Thank You")
+
+Step 3: urls.py
+
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('cbv/', views.CBV.as_view()),
+]
+
+
+Django Crispy Forms
+It is a django application that lets you easily build, customize and reuse forms using your favourite CSS framework, without writing template code and without
+having to take care of annoying details.
+
+To install -
+pip install django-crispy-forms --user
+
+Add it to your INSTALLED_APPS and select which styles to use:
+
+settings.py
+INSTALLED_APPS = [
+# Django built-in Apps
+...
+# Third Party Apps
+'crispy_forms',
+# My Apps
+'WebApp',
+
+Template Packs
+django-crispy-forms has built-in support for different CSS frameworks, known as template packs within django-crispy-forms:
+
+Under static settings-
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
+
+Example:
+Step 1: Create a project named CrispyForms and do the required settings. This project is same as Forms project with a little change
+
+Step 2: Do the settings as mentioned above
+
+Step 3: models.py
+
+from django.db import models
+class Person(models.Model):
+	name = models.CharField(max_length=120)
+	email = models.EmailField(blank=True)
+
+Step 4: py manage.py makemigrations
+		py manage.py migrate
+		
+Step 5: py manage.py createsuperuser
+
+In the welcome.html, istead of {{ form.as_p }}, add {{ form|crispy }}
+
+Rest is the same as in the previous project
+
+
+11/08/2019
+
+How to Send Email in a Django
+The most common use case for sending emails in a Django Application are for password reset, account activation and sending general notifications related to your app. Django also provides mechanisms to send error reports via email.
+
+Requirements
+To start sending transactional emails you will need:
+    A registered domain
+    An email service
+
+Basic Django Email Functions
+Django implements a module on top of Python’s smtplib, offering some very convenient functions, detailed below. The module is available at django.core.mail.
+
+send_mail()
+This is the simpliest way to send emails. It uses the following parameters:
+subject: A string;     
+message: A string;     
+from_email: A string;
+recipient_list: A list of strings;     
+fail_silently: A boolean;
+auth_user,    
+auth_password,    
+connection
+
+EXAMPLE:
+LIVE PROJECT EMAIL SENDING in DJANGO:
+
+STEP1:
+django-admin startproject MailProject
+cd MailProject
+
+STEP2:
+django-admin startapp WebApp
+1. Configure the app in settings.py file, do templates settings
+2. Do Mail Configurations in settings.py file
+
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_HOST_USER='djangotest25@gmail.com'
+EMAIL_HOST_PASSWORD='Test@123'
+EMAIL_PORT='587'
+EMAIL_USE_TLS=True
+
+STEP3:forms.py
+from django import forms
+class SentForm(forms.Form):
+	name = forms.CharField(max_length=80, widget=forms.TextInput(attrs={'class': 'form-control'}))
+	email = forms.CharField(max_length=80, widget=forms.TextInput(attrs={'class': 'form-control'}))
+	subject = forms.CharField(max_length=80, widget=forms.TextInput(attrs={'class': 'form-control'}))
+	message = forms.CharField(required=False, widget=forms.Textarea(attrs={'rows': 8, 'cols': 70}))
+
+STEP4:thanks.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Email Services</title>
+</head>
+<body>
+<h1 style="color:red;font-family:tahoma;font-size:40px">Mail Send Successfully...!! </h1>
+</body>
+</html>
+
+STEP5:mail.html
+<html>
+<head>
+<title>contact us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<div class="col-sm-6" style="margin-top: 50px">
+<h2 class="text-center">Mail Sending Page..!!</h2>
+<hr>
+ <form  method="post">
+{% csrf_token %}
+
+<div class="col-sm-6">
+	{{ form.name.label_tag }}
+	{{ form.name.errors }}
+	{{ form.name }}
+</div>
+
+<div class="col-sm-6">
+	{{ form.email.label_tag }}
+	{{ form.email.errors }}
+	{{ form.email }}
+</div>
+
+<div class="col-sm-12">
+	{{ form.subject.label_tag }}
+	{{ form.subject.errors }}
+	{{ form.subject }}
+</div>
+
+<div class="col-sm-12">
+	{{ form.message.label_tag }}
+	{{ form.message.errors }}
+	{{ form.message }}
+</div>
+<div class="col-sm-12" style="margin-top: 20px">
+ <button type="submit" name="save" class="btn btn-primary">submit </button>
+</div>
+ </form>
+</div>
+    </div>
+</body>
+</html>
+
+STEP6:views.py
+from django.shortcuts import render
+from django.http import HttpResponseRedirect
+from django.core.mail import send_mail,EmailMessage
+from django.conf import settings
+from .forms import SentForm
+# Create your views here.
+
+def sending_mail(request):
+    if request.method == 'POST':
+        form = SentForm(request.POST)
+        if form.is_valid():
+            name= form.cleaned_data['name']
+            mail = form.cleaned_data['email']
+            sub = form.cleaned_data['subject']
+            message = form.cleaned_data['message']
+
+            send_mail('got mail from'+str(mail),
+                "name: "+str(name)+"\n"
+                "email:"+str(mail)+"\n"
+                "subject: "+str(sub)+"\n"
+                "message :"+ str(message),
+                settings.EMAIL_HOST_USER,
+                ['ksrajupy@gmail.com'],
+                fail_silently=False )
+            return HttpResponseRedirect('/thanks')
+    else:
+        form = SentForm()
+    return render(request,'MyApp/mail.html',{'form': form})
+
+def thanks(request):
+    return render(request,'MyApp/thanks.html')
+
+STEP7:urls.py
+from django.contrib import admin
+from django.urls import path
+from WebApp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('mail/',views.sending_mail),
+    path('thanks/', views.thanks),
+]
+
+STEP8:send the request to webserver http://127.0.0.1:8000/mail/
+
+
+Web Services
+Web service is a way of communication OR a technology . Web service allows us to build interoperable distributed applications.
+
+Interoperability-
+Interoperability means language independent and platform independent
+
+Web application vs Web service
+A web application is a server side application which provide services directly to consumer. A webserver is also a server side application which provides its
+services to another application but not to end users directly.
+For web applications, browser acts as a client.
+For web services application, an application acts as a client. Webservice applications are distributed applications.
+
+Web Services
+Web services also allows a program to expose objects over the network. Web services are given by the open community organisation, called WS-I, which stands for
+WebService Interoperability Organisation.
+
+Types of Web Service
+1. Big Web Services - This type of web services uses XML based protocols for exposing the services. It includes SOAP and WSDL.
+2. Restful Web Services - This type of web service exposes its service through an HTTP REST(REpresentational State Transfer) Architectural Style.
+
+Installing Django REST framework
+1. pip install djangorestframework
+2. pip install markdown #To provide support for browsable API
+3. pip install django-filter #Filtering support
+
+RESTful Web Services:
+REST stands for Representational State Transfer. It means that each unique URL is a representation of some object. We can get contents of this object by using
+HTTP GET. We can modify by using PUT/PATCH and we can delete by using DELETE. We can create by using POST.
+Most of the times, RESTful web service will provide data in the form of JSON, thus parsing is not difficult. Hence, this type of web services are faster when 
+compared with SOAP based web services.
+Transfer of JSON data over the network requires less bandwidth.
+
+Limitations:
+1. It is less secured
+2. It provides support only for the protocols which can provide URL, mostly HTTP.
+
+NOTE - Because of light weight, high performance, less bandwidth requirements, easy development, human understandable message format, this type of web services
+are most commonly used type of web services.
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index page</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{% static "CSS/movies.css" %}">
+</head>
+<body>
+<form>
+<div class="container" align="center">
+
+    <h1>SANDEEP KI MOVIES...!!</h1>
+    <p> UP DATE MOVIES INFORMATION</p>
+    <a  class="btn btn-danger btn-lg" href="/addmovies" role="button"> Add Movies</a>
+    <a class="btn btn-warning btn-lg btn btn-outline-warning"  href="/listmovies" role="button"> List Movies</a>
+</div>
+</form>
+</body>
+</html>

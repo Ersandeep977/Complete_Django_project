@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="{% static 'CSS/demo.css' %}">
+</head>
+<body>
+<h1>NEW MOVIES INFORMATION </h1>
+<h2>NEW MOVIES UPDATE TILL NOW {{ date }}</h2>
+<a class="btn btn-primary btb-lg" href="/add" role="button">AddMovies</a>&nbsp&nbsp&nbsp&nbsp
+<a class="btn btn-primary btb-lg" href="/list" role="button">listMovies</a>&nbsp&nbsp&nbsp&nbsp
+<a class="btn btn-primary btb-lg" href="/upper" role="button">UPPER</a>&nbsp&nbsp&nbsp&nbsp
+<a class="btn btn-primary btb-lg" href="/cf" role="button">Cust_Filtter</a>&nbsp&nbsp&nbsp&nbsp
+</body>
+</html>

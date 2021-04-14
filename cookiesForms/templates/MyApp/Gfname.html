@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Name form</title>
+</head>
+<body>
+<h1>GF Regisration Form</h1>
+<form action="/resut">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <input type="submit" name="" value="Submit GF Name">
+</form>
+</body>
+</html>

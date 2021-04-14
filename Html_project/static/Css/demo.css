@@ -1,0 +1,7 @@
+body{
+    background:#ff8b23;
+    counter-reset:headings;
+}
+h1{
+    text-align: center;
+}

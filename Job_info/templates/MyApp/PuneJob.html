@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PUNE informaton</title>
+    <link rel="stylesheet" href="{% static 'CSS/demo.css' %}">
+</head>
+<body>
+<h1>PUNE JOB INFORMATION</h1>
+<img src="{% static 'Image/Green.jpg' %}">
+<hr>
+  {% if job_list %}
+<table>
+    <thead>
+    <th>Date</th>
+    <th>Company</th>
+    <th>Title</th>
+    <th>Eligiblity</th>
+    <th>Address</th>
+    <th>Email</th>
+    <th>Phone Number</th>
+    </thead>
+    {% for job in job_list %}
+    <tr>
+        <td>{{ job.date }}</td>
+        <td>{{ job.company }}</td>
+        <td>{{ job.title }}</td>
+        <td>{{ job.elisbility }}</td>
+        <td>{{ job.address }}</td>
+        <td>{{ job.email }}</td>
+        <td>{{ job.phoneno }}</td>
+    </tr>
+    {% endfor %}
+</table>
+  {% else %}
+<p>No Recode Found In PUNE job page </p>
+{% endif %}
+</body>
+</html>

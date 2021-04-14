@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<style>
+    .hh{background: brown}
+</style>
+{% extends 'MyApp/base.html' %}
+{% block body_block %}
+      <div class="jumbotron">
+    <div class="container">
+        <h1 class="hh"> WELCOME TO JAVA EXAM </h1>
+        {% load static %}
+          <img src="{% static 'Img/007.gif' %}">
+        </div>
+      </div>
+{% endblock %}

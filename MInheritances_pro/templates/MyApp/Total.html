@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% extends 'MyApp/Base.html' %}
+{% block body_block %}
+    <h1>Total Dash Bord Information</h1>
+    <h1>Student No of Count find:-<span style="font-max-size: larger; color: black;background: aliceblue">'[{{ SCount }}]'</span>
+        Current Date And Time:<span style="background: aliceblue;color: black">'{{ date }}'</span></h1>
+    <table border="10px" bgcolor="#ffebcd" align="center">
+    <thead border="5px" style="background: darkseagreen">
+    <th>Student EId</th>
+    <th>Student EName </th>
+    <th>Student Email</th>
+    <th>Student Adreess</th>
+    <th>Student rollno</th>
+    <th>Student mark</th>
+    </thead>
+    {% for std in Std %}
+        <tr style="color: black">
+        <td>{{ std.id }}</td>
+        <td>{{ std.name|upper }}</td>
+        <td>{{ std.email }}</td>
+        <td>{{ std.address }}</td>
+        <td>{{ std.rollno }}</td>
+        <td>{{ std.mark }}</td>
+        </tr>
+    {% endfor %}
+    </table><br>
+
+        <table border="10px" bgcolor="#ffebcd" align="center">
+    <thead border="5px" style="background: darkseagreen">
+    <h1>Teacher No of Count fint<span style="font-max-size: larger; color: black;background: aliceblue">'[{{ TCount }}]'</span> &nbsp;
+        Current Date And Time:<span style="background: aliceblue;color: black">'{{ date }}'</span></h1>
+    <th>Teacher EId</th>
+    <th>Teacher EName </th>
+    <th>Teacher Email</th>
+    <th>Teacher Adreess</th>
+    <th>Teacher Subject</th>
+    <th>Teacher Salary</th>
+    </thead>
+    {% for std in Tec %}
+        <tr style="color: black">
+        <td>{{ std.id }}</td>
+        <td>{{ std.name|upper }}</td>
+        <td>{{ std.email }}</td>
+        <td>{{ std.address }}</td>
+        <td>{{ std.Subject }}</td>
+        <td>{{ std.salary }}</td>
+        </tr>
+    {% endfor %}
+    </table><br><br><br>
+{% endblock %}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Model forms...</title>
+    <link rel="stylesheet" href="{% static 'css/MyFile.css' %}">
+</head>
+<body>
+ <h2> Enter Employess details...!!</h2>
+<div class="">
+    <form method="POST">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <input type="submit" value="StoreData" class="btn btn-success"/>
+
+    </form>
+
+</div>
+</body>
+</html>

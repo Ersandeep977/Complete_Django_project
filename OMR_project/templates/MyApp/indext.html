@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% extends 'MyApp/Base.html' %}
+{% block body_block %}
+    <h1 >Employess Dash Bord Information</h1>
+    <h1>Total No of Coutnt find:-<span style="font-max-size: larger; color: black;background: aliceblue">'{{ count }}'</span> &nbsp;
+        Current Date And Time:<span style="background: aliceblue;color: black">'{{ date }}'</span></h1>
+    <table border="10px" bgcolor="#ffebcd" align="center">
+    <thead border="5px" style="background: darkseagreen">
+    <th>ID</th>
+    <th>Employes EId</th>
+    <th>Employes EName </th>
+    <th>Employes ESal</th>
+    <th>Employess Add</th>
+    <th>Employess Email</th>
+    <th>Employess Phone No</th>
+    </thead>
+    {% for emp in employes %}
+        <tr style="color: black">
+        <td>{{ emp.id }}</td>
+        <td>{{ emp.Eid }}</td>
+        <td>{{ emp.EName }}</td>
+        <td>{{ emp.ESal }}</td>
+        <td>{{ emp.Eaddress }}</td>
+        <td>{{ emp.Eemail }}</td>
+        <td>{{ emp.phoneno }}</td>
+        </tr>
+    {% endfor %}
+    </table><br><br><br>
+
+{% endblock %}

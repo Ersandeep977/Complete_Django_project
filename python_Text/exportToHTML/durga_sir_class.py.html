@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>durga_sir_class.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000080; font-weight: bold;}
+.s1 { color: #000000;}
+.s2 { color: #008080; font-weight: bold;}
+.s3 { color: #0000ff;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+durga_sir_class.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import  </span>cv2
+<span class="s0">import </span>numpy <span class="s0">as </span>np
+
+<span class="s0">def </span>nothing(x):
+    <span class="s0">pass</span>
+
+cv2.namedWindow(<span class="s2">'tracking'</span>)
+
+<span class="s0">while True</span>:
+    frame = cv2.imread(<span class="s2">'smarties.png'</span>)
+    hsv= cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
+    _b = np.array([<span class="s3">110</span>,<span class="s3">50</span>,<span class="s3">50</span>])
+    u_b=np.array([<span class="s3">130</span>,<span class="s3">255</span>,<span class="s3">255</span>])
+
+    mask= cv2.inRange(hsv,_b,u_b)
+
+    cv2.imshow(<span class="s2">'frame'</span>,frame)
+    key = cv2.waitKey(<span class="s3">1</span>)
+    <span class="s0">if </span>key ==<span class="s3">27</span>:
+        <span class="s0">break</span>
+cv2.destroyAllWindows()</pre>
+</body>
+</html>

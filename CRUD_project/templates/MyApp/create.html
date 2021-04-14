@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends 'MyApp/base.html' %}
+{% block body_block %}
+<h1>Employess Entery Forms</h1>
+    <form method="post" >
+    {{ form.as_p }}
+    {% csrf_token %}
+<input type="submit" class="button" value="Insert record" >
+    </form>
+
+{% endblock %}

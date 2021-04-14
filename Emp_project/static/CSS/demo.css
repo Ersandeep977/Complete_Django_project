@@ -1,0 +1,18 @@
+h1{
+    color: black;
+    text-align: center;
+}
+td,tr,table{
+    margin: auto;
+    border: 2px solid blue;
+    background-color: aquamarine;
+    font-size: 30px;
+}
+thead{
+    color: blueviolet;
+    background: yellow;
+    border: 3px;
+}
+body{
+    background :url("https://thumbs.dreamstime.com/b/pink-tulips-flowers-background-card-mothers-day-march-happy-easter-waiting-spring-greeting-wedding-invitation-flat-lay-141125540.jpg") no-repeat;
+}

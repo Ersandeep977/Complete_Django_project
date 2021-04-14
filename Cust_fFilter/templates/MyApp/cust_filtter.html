@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Movies List</title>
+    <link rel="stylesheet" href="{% static 'CSS/demo.css' %}">
+</head>
+<body>
+<h1>MOVIES INFORMATION </h1>
+{% load cust_filter %}
+{% if Movies_list %}
+<table>
+    <thead>
+    <th>Movies Id</th>
+    <th>Released Date</th>
+    <th>Movies Name</th>
+    <th>Hero Name</th>
+    <th>HeroineName</th>
+    <th>Rating</th>
+    </thead>
+{% for movie in Movies_list %}
+    <tr>
+    <td>{{ movie.id }}</td>
+    <td>{{ movie.RDate|timeuntil}}</td>
+    <td>{{ movie.MovieName|c_and_c:'patel'}}</td>
+    <td>{{ movie.HeroName|tn:1 }}</td>
+    <td>{{ movie.HeroineName|add:"--sandeep" }}</td>
+    <td>{{ movie.Rating }}</td>
+    </tr>
+{% endfor %}
+</table>
+    {% else %}
+    <p> NO MOVIES LIST FOUND</p>
+{% endif %}
+</body>
+</html>

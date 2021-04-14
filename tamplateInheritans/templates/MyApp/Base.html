@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base page</title>
+    <link rel="stylesheet" href="{% static 'CSS/demo.css' %}">
+    {% block sandeep %} {% endblock %}
+</head>
+<body>
+<h1>Hello Sandeep</h1>
+<div>
+    <a href="/home"> Home</a>
+    <a href="/movies" role="button" >movies</a>
+    <a href="/sport" role="button" >Sport </a>
+
+</div>
+{% block body_block %}
+{% endblock %}
+</body>
+</html>
